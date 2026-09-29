@@ -3,6 +3,7 @@
   <name>ProgressionLESS: Attire</name>
   <author>Cruesoe</author>
   <packageId>cruesoe.progressionlessattire</packageId>
+  <modVersion>260929</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
@@ -13,7 +14,11 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
   </modDependencies>
-  <description>Tweaks research requirements and de-duplicates attire from various mods.
+  <description>All the Progression goodness, less research.
+
+Tweaks research requirements and de-duplicates attire from various mods.
+
+The "LESS" is less research: Progression: Attire adds up to 18 research projects depending on your mods. This fork groups them into at most 11, such as Tribal accessories, Tribal footwear and Vanity and costuming tables. Everything stays in the same era, and still needs the other research it did before.
 
 Forked from Progression: Attire by ferny and LemonSkin.
 Huge thanks to ferny and LemonSkin for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
