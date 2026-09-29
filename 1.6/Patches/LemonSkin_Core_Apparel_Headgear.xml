@@ -116,13 +116,13 @@
       <match Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-          <researchPrerequisite>LemonSkin_WarMasks</researchPrerequisite>
+          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
         </value>
       </match>
       <nomatch Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker</xpath>
         <value>
-          <researchPrerequisite>LemonSkin_WarMasks</researchPrerequisite>
+          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
         </value>
       </nomatch>
     </match>
