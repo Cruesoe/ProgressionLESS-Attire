@@ -141,7 +141,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Ferny_CostumingTable</li>
+      <li>Ferny_VanityTable</li>
     </researchPrerequisites>
     <uiIconScale>0.5</uiIconScale>
     <uiIconOffset>(0, 0.15)</uiIconOffset>

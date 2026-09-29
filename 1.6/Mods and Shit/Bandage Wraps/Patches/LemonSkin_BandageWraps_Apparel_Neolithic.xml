@@ -89,14 +89,14 @@
   <Operation Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Bandagewraps_HeadBandage"]/recipeMaker</xpath>
       <value>
-        <researchPrerequisite>Ferny_Bandages</researchPrerequisite>
+        <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
       </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/recipeMaker</xpath>
       <value>
-        <researchPrerequisite>Ferny_Bandages</researchPrerequisite>
+        <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
       </value>
   </Operation>
 
@@ -112,7 +112,7 @@
           <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
           <value>
           <prerequisites>
-            <li>Ferny_Bandages</li>
+            <li>LemonSkin_TribalHeaddress</li>
           </prerequisites>          
           </value>
         </li>

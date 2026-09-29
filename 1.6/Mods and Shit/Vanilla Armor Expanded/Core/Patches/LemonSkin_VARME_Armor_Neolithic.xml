@@ -10,19 +10,19 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_VARME_WoodenArmor"]</xpath>
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_VFET_WarTribalwear"]</xpath>
     <match Class="PatchOperationConditional">
       <xpath>Defs/ThingDef[defName="VAE_Apparel_WoodenArmor"]/recipeMaker/researchPrerequisite</xpath>
       <match Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VAE_Apparel_WoodenArmor"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-          <researchPrerequisite>LemonSkin_VARME_WoodenArmor</researchPrerequisite>
+          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
         </value>
       </match>
       <nomatch Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="VAE_Apparel_WoodenArmor"]/recipeMaker</xpath>
         <value>
-          <researchPrerequisite>LemonSkin_VARME_WoodenArmor</researchPrerequisite>
+          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
         </value>
       </nomatch>
     </match>

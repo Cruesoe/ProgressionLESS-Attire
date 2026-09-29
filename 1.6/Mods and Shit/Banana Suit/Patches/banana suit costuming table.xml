@@ -7,7 +7,7 @@
         <recipeUsers Inherit="False">
           <li>Ferny_CostumingTable</li>
         </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_CostumingTable</researchPrerequisite>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
   </Operation>
@@ -30,7 +30,7 @@
           <recipeUsers Inherit="False">
             <li>Ferny_CostumingTable</li>
           </recipeUsers>
-          <researchPrerequisite Inherit="False">Ferny_CostumingTable</researchPrerequisite>
+          <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
         </recipeMaker>
       </value>
     </match>

@@ -7,7 +7,7 @@
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <researchViewX>6.00</researchViewX>
-    <researchViewY>5.90</researchViewY>
+    <researchViewY>5.60</researchViewY>
     <prerequisites>
       <li>Machining</li>
     </prerequisites>

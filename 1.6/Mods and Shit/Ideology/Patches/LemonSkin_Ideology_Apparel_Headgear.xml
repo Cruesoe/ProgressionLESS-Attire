@@ -99,13 +99,13 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
       <value>
-        <researchPrerequisite>LemonSkin_Shadecone</researchPrerequisite>
+        <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker</xpath>
       <value>
-        <researchPrerequisite>LemonSkin_Shadecone</researchPrerequisite>
+        <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>

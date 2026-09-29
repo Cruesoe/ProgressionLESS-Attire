@@ -31,18 +31,9 @@
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_RiverTribalShoes"]</xpath>
     <match Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="River_Tribal_sandals" or defName="River_Tribal_moccasins"]/recipeMaker</xpath>
+      <xpath>Defs/ThingDef[defName="River_Tribal_sandals" or defName="River_Tribal_moccasins" or defName="River_Tribal_mukluks"]/recipeMaker</xpath>
       <value>
         <researchPrerequisite>LemonSkin_RiverTribalShoes</researchPrerequisite>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_RiverTribalMukluks"]</xpath>
-    <match Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="River_Tribal_mukluks"]/recipeMaker</xpath>
-      <value>
-        <researchPrerequisite>LemonSkin_RiverTribalMukluks</researchPrerequisite>
       </value>
     </match>
   </Operation>

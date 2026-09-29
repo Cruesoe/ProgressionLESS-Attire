@@ -223,8 +223,26 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
     <value>
-      <researchPrerequisite>LemonSkin_RBME_Cowbell</researchPrerequisite>
+      <researchPrerequisite>LemonSkin_TribalHeaddress</researchPrerequisite>
     </value>
+  </Operation>
+  <!-- Cowbell also keeps its Smithing requirement -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker/researchPrerequisites</xpath>
+      <value>
+        <li>Smithing</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="RBME_Cowbell"]/recipeMaker</xpath>

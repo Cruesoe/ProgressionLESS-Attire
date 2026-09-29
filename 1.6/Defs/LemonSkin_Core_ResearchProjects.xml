@@ -7,7 +7,7 @@
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>0.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
+    <researchViewY>6.20</researchViewY>
 		<prerequisites>
 			<li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
 		</prerequisites>
@@ -18,8 +18,8 @@
     <description>Use powered equipment to tailor garments more efficiently.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
 		<prerequisites>
 			<li>LemonSkin_RusticClothing</li>
 			<li>Electricity</li>
@@ -27,36 +27,24 @@
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>Ferny_VanityTable</defName>
-    <label>vanity table</label>
-    <description>Tailor beautiful garments for women.</description>
+    <label>vanity and costuming tables</label>
+    <description>Build vanity and costuming tables to tailor beautiful garments, costumes and masks.</description>
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
-		<prerequisites>
-			<li>LemonSkin_RusticClothing</li>
-		</prerequisites>
-  </ResearchProjectDef>
-  <ResearchProjectDef>
-    <defName>Ferny_CostumingTable</defName>
-    <label>costuming table</label>
-    <description>Tailor costumes and masks for your colonists.</description>
-    <baseCost>400</baseCost>
-    <techLevel>Medieval</techLevel>
-    <researchViewX>0.00</researchViewX>
-    <researchViewY>4.90</researchViewY>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
 		<prerequisites>
 			<li>LemonSkin_RusticClothing</li>
 		</prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>LemonSkin_TribalHeaddress</defName>
-    <label>headdress</label>
-    <description>Craft decorative tribal headdresses.</description>
+    <label>tribal accessories</label>
+    <description>Craft tribal headdresses, shadecones, bandages and cowbells.</description>
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1.00</researchViewX>
-    <researchViewY>5.90</researchViewY>
+    <researchViewY>6.20</researchViewY>
 		<prerequisites>
 			<li MayRequire="OskarPotocki.VFE.Tribals">VFET_Tribalwear</li>
 		</prerequisites>
