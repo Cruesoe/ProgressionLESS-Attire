@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-  <name>Progression: Attire</name>
-  <author>Ferny, Lemonskin</author>
-  <packageId>ferny.progressionattire</packageId>
+  <name>ProgressionLESS: Attire</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.progressionlessattire</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
@@ -13,7 +13,15 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
   </modDependencies>
-  <description>Tweaks research requirements and de-duplicates attire from various mods.</description>
+  <description>Tweaks research requirements and de-duplicates attire from various mods.
+
+Forked from Progression: Attire by ferny and LemonSkin.
+Huge thanks to ferny and LemonSkin for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
+
+For a really good modpack, check out The Progression Modpack on the Steam Workshop.</description>
+  <incompatibleWith>
+    <li>ferny.progressionattire</li>
+  </incompatibleWith>
   <loadAfter>
     <li>Ludeon.Rimworld</li>
     <li>Ludeon.Rimworld.Royalty</li>

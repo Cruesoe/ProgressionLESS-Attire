@@ -9,7 +9,7 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
 		<prerequisites>
-			<li MayRequire="ferny.progressionfurniture">Ferny_Tables</li>
+			<li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
 		</prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>

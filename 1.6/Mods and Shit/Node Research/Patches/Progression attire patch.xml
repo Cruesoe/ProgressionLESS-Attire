@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]</xpath>
+    <value>
+      <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Tribals</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Leaf Skirt</li>
+        <li>Roo's Satyr and Faun Xenotypes Expanded</li>
+      </mods>
+      <match Class="PatchOperationAddModExtension">
+        <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_Leafwear"]</xpath>
+        <value>
+          <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+        </value>
+      </match>
+    </match>
+  </Operation>
+
+</Patch>
