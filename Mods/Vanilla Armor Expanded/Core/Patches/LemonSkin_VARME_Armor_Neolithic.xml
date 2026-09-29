@@ -36,4 +36,22 @@
       </thingCategories>
     </value>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_WarMasks"]</xpath>
+    <match Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_StoneWarMask"]/recipeMaker/researchPrerequisite</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VAE_Headgear_StoneWarMask"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_WarMasks</researchPrerequisite>
+        </value>
+      </match>
+      <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VAE_Headgear_StoneWarMask"]/recipeMaker</xpath>
+        <value>
+          <researchPrerequisite>LemonSkin_WarMasks</researchPrerequisite>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
 </Patch>

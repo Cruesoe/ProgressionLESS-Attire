@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- Apparel_GasMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_GasMask"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_GasMask</researchPrerequisite>
+    </value>
+  </Operation>
+
   <!-- Apparel_AirwireHeadset -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]</xpath>

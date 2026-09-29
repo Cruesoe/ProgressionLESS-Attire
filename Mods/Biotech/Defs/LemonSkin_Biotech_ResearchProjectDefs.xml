@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>LemonSkin_GasMask</defName>
+    <label>gas mask</label>
+    <description>Craft gas masks to protect against toxic gas and airborne pollution.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>5.90</researchViewY>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>

@@ -390,6 +390,21 @@
       </thingCategories>
     </value>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>RBSFE_FaeCraftables</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
 
   <!-- RBSFE_Faescarf -->
   <Operation Class="PatchOperationReplace">
@@ -487,21 +502,6 @@
           </match>
           <nomatch Class="PatchOperationAdd">
             <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </nomatch>
-        </li>
-        <li Class="PatchOperationConditional">
-          <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
-          <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker/researchPrerequisite</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </match>
-          <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/recipeMaker</xpath>
             <value>
               <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
             </value>
