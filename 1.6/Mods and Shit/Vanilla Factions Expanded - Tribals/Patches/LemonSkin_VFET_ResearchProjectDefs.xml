@@ -31,6 +31,18 @@
             <li>LemonSkin_Leafwear</li>
           </value>
         </li>
+        <!-- Node Research foundation; lives here because the Node Research folder's patches run before this folder's -->
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Node Research</li>
+          </mods>
+          <match Class="PatchOperationAddModExtension">
+            <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_Leafwear"]</xpath>
+            <value>
+              <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
+            </value>
+          </match>
+        </li>
       </operations>
     </match>
   </Operation>
