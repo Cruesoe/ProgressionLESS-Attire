@@ -40,8 +40,8 @@ namespace ProgressionAttire
             }
             Utils.RefreshModifiedCategories();
             Utils.RefreshAllModifiedRecipes();
-            Log.Message($"Progression: Attire: Patched {vanityItemsPatched} vanity items & {costumeItemsPatched} costume items");
-            Log.Message("Progression: Attire loaded successfully");
+            Log.Message($"ProgressionLESS: Attire: Patched {vanityItemsPatched} vanity items & {costumeItemsPatched} costume items");
+            Log.Message("ProgressionLESS: Attire loaded successfully");
         }
     }
 }
