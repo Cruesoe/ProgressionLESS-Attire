@@ -28,18 +28,4 @@
       <li>LemonSkin_VFET_HeavyTribalwear</li>
     </prerequisites>
   </VFETribals.TribalResearchProjectDef>
-
-  <VFETribals.TribalResearchProjectDef MayRequire="River.Tribal.Shoes">
-    <defName>LemonSkin_RiverTribalShoes</defName>
-    <label>tribal footwear</label>
-    <description>Craft tribal sandals, moccasins and mukluks.</description>
-    <baseCost>15</baseCost>
-    <tab>VFET_Basics</tab>
-    <techLevel>Animal</techLevel>
-    <researchViewX>4.00</researchViewX>
-    <researchViewY>2.80</researchViewY>
-    <prerequisites>
-      <li>VFET_Tribalwear</li>
-    </prerequisites>
-  </VFETribals.TribalResearchProjectDef>
 </Defs>

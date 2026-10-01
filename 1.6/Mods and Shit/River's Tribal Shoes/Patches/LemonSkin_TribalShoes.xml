@@ -29,10 +29,10 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationConditional">
-    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_RiverTribalShoes"]</xpath>
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
     <match Class="PatchOperationSequence">
       <operations>
-        <!-- Progression: Core adds VFET_Tribalwear here; a second researchPrerequisite logs an error and the last one wins -->
+        <!-- Progression: Core adds the same prerequisite; remove any first so it isn't defined twice -->
         <li Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/ThingDef[defName="River_Tribal_sandals" or defName="River_Tribal_moccasins" or defName="River_Tribal_mukluks"]/recipeMaker/researchPrerequisite</xpath>
@@ -40,7 +40,7 @@
         <li Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[defName="River_Tribal_sandals" or defName="River_Tribal_moccasins" or defName="River_Tribal_mukluks"]/recipeMaker</xpath>
           <value>
-            <researchPrerequisite>LemonSkin_RiverTribalShoes</researchPrerequisite>
+            <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
           </value>
         </li>
       </operations>
