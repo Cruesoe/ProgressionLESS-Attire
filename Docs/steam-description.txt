@@ -1,0 +1,36 @@
+[h1]ProgressionLESS: Attire[/h1]
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3634874325]Progression: Attire[/url] by ferny and LemonSkin. Huge thanks to ferny and LemonSkin for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]What it does[/h2]
+[list]
+[*]Reworks clothing research, so apparel from the base game and many mods unlocks in its proper tech era.
+[*]Adds the tailor bench, plus vanity and costuming tables that gather fine clothes, costumes and masks from many mods.
+[*]De-duplicates attire from various mods and sorts it into tidy categories by era.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Attire adds up to [b]18 research projects[/b] depending on your mods. This fork groups them into [b]at most 9[/b]:
+[list]
+[*][b]Tribal (VFE Tribals):[/b] Leafwear, Heavy tribalwear, War tribalwear
+[*][b]Neolithic:[/b] Tribal accessories
+[*][b]Medieval:[/b] Tailor bench, Vanity and costuming tables, Leather armor
+[*][b]Industrial:[/b] Electric tailor bench, Gas mask
+[/list]
+River's Tribal Shoes unlock with Tribalwear. Everything stays in the same era, and still needs the other research it did before. The tailoring research on the main tab is laid out with no overlaps.
+
+[h2]Compatibility[/h2]
+Keeps all of the original's mod support, including:
+[list]
+[*]Royalty, Ideology, Biotech, Anomaly and Odyssey
+[*]Medieval Overhaul, VFE Medieval 2, VFE Classical, VFE Tribals, VFE Empire, VFE Pirates and VFE Settlers
+[*]Vanilla Apparel, Armor, Psycasts, Genetics, Gravship and Anomaly Expanded, Hats and Rags, VFE Art and VRE Fungoid
+[*]VQE Generator, Cryptoforge, Ancients and Deadlife
+[*]Det's Xenotypes, Spacer Arsenal, Alpha Genes, Altered Carbon, Impact Weaponry, Tacticool Ops and Samurai Faction
+[*]Kid Apparel Expanded, Toddlers, River's Tribal Shoes and Mittens, Leaf Skirt, Bandage Wraps, and Roo's Minotaur and Satyr/Faun
+[*]Victorian Era Apparels, Ponpeco Accessories and Pajamas, Unagi, Cinderella, Imperial Attires, Oracle's Miscellania and other apparel mods, sorted onto the vanity and costuming tables
+[*]Both Progression: Furniture and ProgressionLESS: Furniture, Better Architect and Node Research
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
