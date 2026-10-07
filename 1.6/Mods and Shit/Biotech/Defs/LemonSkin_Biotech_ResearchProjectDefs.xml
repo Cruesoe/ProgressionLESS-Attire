@@ -6,8 +6,8 @@
     <description>Craft gas masks to protect against toxic gas and airborne pollution.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <researchViewX>23.00</researchViewX>
-    <researchViewY>1.40</researchViewY>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
     <prerequisites>
       <li>Machining</li>
     </prerequisites>

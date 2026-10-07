@@ -4,7 +4,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewX</xpath>
     <value>
-      <researchViewX>24.00</researchViewX>
+      <researchViewX>1.0</researchViewX>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -19,12 +19,6 @@
       <prerequisites>
         <li>LemonSkin_RusticClothing</li>
       </prerequisites>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/researchViewY</xpath>
-    <value>
-      <researchViewY>0.00</researchViewY>
     </value>
   </Operation>
   <!-- PlateArmor: Move, remove ComplexClothing as prereq, add RusticClothing as hidden prereq -->
