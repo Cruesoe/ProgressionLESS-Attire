@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Rustic Clothing -->
-  <Operation Class="PatchOperationSequence">
-    <operations>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/tab</xpath>
-        <value>
-          <tab>DankPyon_MedievalResearchTab</tab>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/researchViewX</xpath>
-        <value>
-          <researchViewX>7.0</researchViewX>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/researchViewY</xpath>
-        <value>
-          <researchViewY>1.80</researchViewY>
-        </value>
-      </li>
-    </operations>
-  </Operation>
   <!-- Complex Clothing -->
   <Operation Class="PatchOperationSequence">
     <operations>
