@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- Medieval Overhaul no longer has a tailor's bench; the stale recipe user logs a cross-reference error -->
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="River_Tribal_sandals" or defName="River_Tribal_moccasins" or defName="River_Tribal_mukluks"]/recipeMaker/recipeUsers/li[text()="DankPyon_TailorsBench"]</xpath>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="River_Tribal_sandals"]/thingCategories</xpath>
     <value>
