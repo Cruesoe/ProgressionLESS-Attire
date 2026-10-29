@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace">
+  <!-- Combat Extended and its add-ons may already have taken these shields out of apparelRequired -->
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/*[*]/apparelRequired/li[.="VFEM2_Shield_Round"]</xpath>
-    <value>
-      <li>DankPyon_Shield</li>
-    </value>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/*[*]/apparelRequired/li[.="VFEM2_Shield_Round"]</xpath>
+      <value>
+        <li>DankPyon_Shield</li>
+      </value>
+    </match>
   </Operation>
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/*[*]/apparelRequired/li[.="VFEM2_Shield_Heater"]</xpath>
-    <value>
-      <li>DankPyon_ShieldHeater</li>
-    </value>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/*[*]/apparelRequired/li[.="VFEM2_Shield_Heater"]</xpath>
+      <value>
+        <li>DankPyon_ShieldHeater</li>
+      </value>
+    </match>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VFEM2_Shield_Round" or defName="VFEM2_Shield_Heater"]</xpath>
