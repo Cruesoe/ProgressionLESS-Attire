@@ -17,4 +17,10 @@
 		</value>
 	</Operation>
 
+	<!-- Medieval Overhaul no longer has a tailor's bench; the stale recipe user logs a cross-reference error -->
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="River_Tribal_mittens"]/recipeMaker/recipeUsers/li[text()="DankPyon_TailorsBench"]</xpath>
+	</Operation>
+
 </Patch>

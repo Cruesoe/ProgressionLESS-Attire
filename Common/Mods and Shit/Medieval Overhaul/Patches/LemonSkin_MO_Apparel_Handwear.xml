@@ -15,13 +15,17 @@
       </statBases>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
+  <!-- Combat Extended removes the gloves' stat offsets -->
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </match>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/thingCategories</xpath>
@@ -52,13 +56,16 @@
       </statBases>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-      </equippedStatOffsets>
-    </value>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+        </equippedStatOffsets>
+      </value>
+    </match>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/thingCategories</xpath>
@@ -83,13 +90,16 @@
       </statBases>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
-      </equippedStatOffsets>
-    </value>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </equippedStatOffsets>
+      </value>
+    </match>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/thingCategories</xpath>
