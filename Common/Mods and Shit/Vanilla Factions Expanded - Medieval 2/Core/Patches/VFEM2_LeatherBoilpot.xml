@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-	<!-- Change Research Requirement Without Medieval Overhaul -->
-
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Medieval Overhaul</li>
-		</mods>
-		<nomatch Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "VFEM2_LeatherBoilpot"]/researchPrerequisites/li[text()="ComplexClothing"]</xpath>
-		<value>
-			<li>LemonSkin_RusticClothing</li>
-		</value>
-		</nomatch>
-	</Operation>
-
+  <!-- Leather boilpot moves from complex clothing (now Industrial) to tailor bench; skipped if another mod already replaced it -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_LeatherBoilpot"]/researchPrerequisites/li[.="ComplexClothing"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_LeatherBoilpot"]/researchPrerequisites/li[.="ComplexClothing"]</xpath>
+      <value>
+        <li>LemonSkin_RusticClothing</li>
+      </value>
+    </match>
+  </Operation>
 </Patch>
