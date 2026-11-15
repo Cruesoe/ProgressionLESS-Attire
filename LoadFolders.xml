@@ -14,6 +14,10 @@
     <li IfModActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont">Common/Mods and Shit/Medieval Overhaul - House Roxmont</li>
 
+    <!-- Later entries' patches apply first, so these follow the Core rebalances below -->
+    <li IfModActiveAll="Rosalina.Mating.Press,OskarPotocki.VFE.Medieval2,VanillaExpanded.VARME">Common/Mods and Shit/Generic Ammo Experience/Vanilla Factions Expanded - Medieval 2</li>
+    <li IfModActiveAll="Rosalina.Mating.Press,VanillaExpanded.VAPPE">Common/Mods and Shit/Generic Ammo Experience/Vanilla Apparel Expanded</li>
+
     <li IfModActive="OskarPotocki.VFE.Medieval2">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li>
 
@@ -118,6 +122,10 @@
     <!-- For rebalances -->
     <li IfModActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont">Common/Mods and Shit/Medieval Overhaul - House Roxmont</li>
+
+    <!-- Later entries' patches apply first, so these follow the Core rebalances below -->
+    <li IfModActiveAll="Rosalina.Mating.Press,OskarPotocki.VFE.Medieval2,VanillaExpanded.VARME">Common/Mods and Shit/Generic Ammo Experience/Vanilla Factions Expanded - Medieval 2</li>
+    <li IfModActiveAll="Rosalina.Mating.Press,VanillaExpanded.VAPPE">Common/Mods and Shit/Generic Ammo Experience/Vanilla Apparel Expanded</li>
 
     <li IfModActive="OskarPotocki.VFE.Medieval2">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li>

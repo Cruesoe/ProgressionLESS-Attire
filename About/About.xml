@@ -111,4 +111,7 @@ For a really good modpack, check out The Progression Modpack on the Steam Worksh
     <!-- Fix conflict with Too Many Mods -->
     <li>Wara.toomanymods</li>
   </loadAfter>
+  <loadBefore>
+    <li>Rosalina.Mating.Press</li>
+  </loadBefore>
 </ModMetaData>
