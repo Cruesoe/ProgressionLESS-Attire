@@ -1,18 +1,6 @@
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-
-using UnityEngine;
-using Verse;
-using Verse.AI;
-using Verse.AI.Group;
-using Verse.Sound;
-using Verse.Noise;
-using Verse.Grammar;
 using RimWorld;
-using RimWorld.Planet;
+using Verse;
 
 namespace ProgressionAttire
 {
@@ -74,7 +62,12 @@ namespace ProgressionAttire
         public static int PatchApparel(ThingDef thingDef)
         {
             Utils.ApplyCategory(thingDef, "LemonSkin_VanityApparel");
-            thingDef.costList = new List<ThingDefCountClass>();
+            // Items made without stuff keep their fixed cost and recipe ingredients
+            bool madeFromStuff = thingDef.MadeFromStuff;
+            if (madeFromStuff)
+            {
+                thingDef.costList = new List<ThingDefCountClass>();
+            }
             thingDef.equippedStatOffsets = new List<StatModifier>
                 {
                     new StatModifier
@@ -139,7 +132,10 @@ namespace ProgressionAttire
             thingDef.apparel.tags = new List<string>();
             thingDef.apparel.defaultOutfitTags = new List<string>();
             thingDef.tradeability = Tradeability.None;
-            Utils.thingDefRecipesToRegenerate.Add(thingDef);
+            if (madeFromStuff)
+            {
+                Utils.thingDefRecipesToRegenerate.Add(thingDef);
+            }
 
             return 1;
         }

@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[
-      defName="Apparel_Beret" or 
-      @Name="ApparelHatRoyalTier2" or 
-      @Name="ApparelVestRoyalTier5Base" or 
+      defName="Apparel_Beret" or
+      @Name="ApparelHatRoyalTier2" or
+      @Name="ApparelVestRoyalTier5Base" or
       @Name="ApparelShirtRoyalTier2Base"
       ]/recipeMaker/researchPrerequisite</xpath>
     <value>
@@ -67,18 +67,6 @@
           <li>RoyalApparel</li>
           <li>Smithing</li>
         </researchPrerequisites>
-      </value>
-    </match>
-  </Operation>
-  <!-- Apparel_Beret -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Apparel Expanded</li>
-    </mods>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Apparel_Beret"]/label</xpath>
-      <value>
-        <label>ceremonial beret</label>
       </value>
     </match>
   </Operation>

@@ -17,4 +17,11 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ResearchProjectDef[defName="VAE_FormalWear"]</xpath>
   </Operation>
+  <!-- Apparel_Beret -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Beret"]/label</xpath>
+    <value>
+      <label>ceremonial beret</label>
+    </value>
+  </Operation>
 </Patch>

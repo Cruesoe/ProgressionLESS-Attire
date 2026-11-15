@@ -23,24 +23,4 @@
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Tribals</li>
-    </mods>
-    <match Class="PatchOperationConditional">
-      <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]/researchPrerequisite</xpath>
-      <match Class="PatchOperationReplace">
-        <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-        </value>
-      </match>
-      <nomatch Class="PatchOperationAdd">
-        <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-        </value>
-      </nomatch>
-    </match>
-  </Operation>
 </Patch>

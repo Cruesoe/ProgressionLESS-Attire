@@ -1,22 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-
-using UnityEngine;
-using Verse;
-using Verse.AI;
-using Verse.AI.Group;
-using Verse.Sound;
-using Verse.Noise;
-using Verse.Grammar;
-using RimWorld;
-using RimWorld.Planet;
-
-// *Uncomment for Harmony*
-using System.Reflection;
-using HarmonyLib;
+﻿using Verse;
 
 namespace ProgressionAttire
 {
@@ -25,15 +7,17 @@ namespace ProgressionAttire
     {
         static Start()
         {
+            ThingDef vanityTable = DefDatabase<ThingDef>.GetNamed("Ferny_VanityTable", false);
+            ThingDef costumingTable = DefDatabase<ThingDef>.GetNamed("Ferny_CostumingTable", false);
             int vanityItemsPatched = 0;
             int costumeItemsPatched = 0;
             foreach (ThingDef thingDef in DefDatabase<ThingDef>.AllDefs)
             {
-                if (thingDef.recipeMaker?.recipeUsers?.Contains(DefDatabase<ThingDef>.GetNamed("Ferny_VanityTable", false)) == true)
+                if (thingDef.recipeMaker?.recipeUsers?.Contains(vanityTable) == true)
                 {
                     vanityItemsPatched += Vanity.PatchApparel(thingDef);
                 }
-                if (thingDef.recipeMaker?.recipeUsers?.Contains(DefDatabase<ThingDef>.GetNamed("Ferny_CostumingTable", false)) == true)
+                if (thingDef.recipeMaker?.recipeUsers?.Contains(costumingTable) == true)
                 {
                     costumeItemsPatched += Costume.PatchApparel(thingDef);
                 }

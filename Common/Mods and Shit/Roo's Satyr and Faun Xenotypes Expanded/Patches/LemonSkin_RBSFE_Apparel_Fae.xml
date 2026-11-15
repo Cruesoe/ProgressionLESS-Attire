@@ -22,7 +22,7 @@
     </match>
   </Operation>
   -->
-  
+
 
   <!-- RBSFE_Faegarms -->
   <Operation Class="PatchOperationReplace">
@@ -470,60 +470,6 @@
         <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Tribals</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationConditional">
-          <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
-          <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </match>
-          <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </nomatch>
-        </li>
-        <li Class="PatchOperationConditional">
-          <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
-          <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </match>
-          <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </nomatch>
-        </li>
-        <li Class="PatchOperationConditional">
-          <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
-          <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </match>
-          <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker</xpath>
-            <value>
-              <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
-            </value>
-          </nomatch>
-        </li>
-      </operations>
-    </match>
   </Operation>
 
   <!-- RBSF_Faehelm -->

@@ -107,26 +107,6 @@
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Tribals</li>
-    </mods>
-    <match Class="PatchOperationConditional">
-      <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite</xpath>
-      <match Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
-        </value>
-      </match>
-      <nomatch Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
-        </value>
-      </nomatch>
-    </match>
-  </Operation>
   <!-- Apparel_WarVeil -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]</xpath>

@@ -35,7 +35,7 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- Warrior's armour -->
+  <!-- Warrior's armor -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedWarriorArmor"]/statBases</xpath>
     <value>

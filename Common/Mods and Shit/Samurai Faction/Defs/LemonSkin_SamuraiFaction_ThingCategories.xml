@@ -16,7 +16,7 @@
     <label>utility</label>
     <parent>LemonSkin_SamuraiApparel</parent>
   </ThingCategoryDef>
-  <!-- Armour -->
+  <!-- Armor -->
   <ThingCategoryDef>
     <defName>LemonSkin_SamuraiArmor</defName>
     <label>samurai armor</label>

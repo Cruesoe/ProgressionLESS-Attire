@@ -2,5 +2,6 @@
   <PropertyGroup>
     <RootNamespace>ProgressionAttire</RootNamespace>
     <AssemblyName>ProgressionAttire</AssemblyName>
+    <UseHarmony>false</UseHarmony>
   </PropertyGroup>
 </Project>

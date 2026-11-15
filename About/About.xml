@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>ProgressionLESS: Attire</name>
   <author>Cruesoe</author>
@@ -8,13 +8,6 @@
     <li>1.6</li>
     <li>1.7</li>
   </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-    </li>
-  </modDependencies>
   <description>All the Progression goodness, less research.
 
 Tweaks research requirements and de-duplicates attire from various mods.
@@ -57,7 +50,6 @@ For a really good modpack, check out The Progression Modpack on the Steam Worksh
     <li>Rooboid.Paintings.Ex</li>
     <li>DankPyon.Medieval.Overhaul.House.Roxmont</li>
     <li>det.epochsgolems</li>
-    <li>VanillaExpanded.VGeneticsE</li>
     <li>OskarPotocki.VFE.Pirates</li>
     <li>vanillaquestsexpanded.cryptoforge</li>
     <li>vanillaquestsexpanded.generator</li>
@@ -81,7 +73,6 @@ For a really good modpack, check out The Progression Modpack on the Steam Worksh
     <li>det.boglegs</li>
     <li>vanillaexpanded.gravship</li>
     <li>yamazaki.PreschoolerOutfits</li>
-    <li>VanillaExpanded.VFEArt</li>
     <li>as1aw.morehunterdrones</li>
     <li>Ushanka.BiologicalWarfare</li>
     <li>CatLover366.BootsAndGloves</li>

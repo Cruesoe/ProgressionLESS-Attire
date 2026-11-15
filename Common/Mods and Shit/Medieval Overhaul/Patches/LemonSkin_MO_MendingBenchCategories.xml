@@ -5,7 +5,7 @@
     <value>
       <!-- 30 ticks per HP restored, therefore 3000 ticks to restore 100 HP
        1 day = 60000 ticks
-       100 HP costs 1 fuel, so it should last 3000/60000 = 0.05 days 
+       100 HP costs 1 fuel, so it should last 3000/60000 = 0.05 days
        Therefore fuelConsumptionRate = 1/0.05 = 20.0 -->
       <fuelConsumptionRate>20.0</fuelConsumptionRate>
     </value>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Make_Leaf_Skirt -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Make_Leaf_Skirt"]</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

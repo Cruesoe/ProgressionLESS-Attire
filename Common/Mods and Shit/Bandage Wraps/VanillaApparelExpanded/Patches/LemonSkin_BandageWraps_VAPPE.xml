@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_SterileAttire -->
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
+    <value>
+      <prerequisites>
+        <li>LemonSkin_TribalHeaddress</li>
+      </prerequisites>
+    </value>
+  </Operation>
+</Patch>
