@@ -19,8 +19,8 @@
     </value>
   </Operation>
   <!-- VQED_Apparel_GeneralsCap -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="VQED_Apparel_GeneralsCap"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VQED_Apparel_GeneralsCap"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_IndustrialHeadgear</li>

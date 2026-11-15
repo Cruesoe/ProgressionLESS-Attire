@@ -23,8 +23,8 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Rags"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Rags"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_MedievalApparel</li>

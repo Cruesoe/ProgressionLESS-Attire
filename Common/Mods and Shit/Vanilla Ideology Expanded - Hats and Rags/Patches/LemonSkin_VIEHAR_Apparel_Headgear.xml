@@ -322,11 +322,9 @@
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]/recipeMaker</xpath>
       <value>
-        <recipeMaker>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </recipeMaker>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -376,7 +374,7 @@
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headscarf"]</xpath>
       <value>
         <recipeMaker>
           <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
@@ -560,18 +558,15 @@
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>
-        Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
       <value>
         <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker</xpath>
       <value>
-        <recipeMaker>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </recipeMaker>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>

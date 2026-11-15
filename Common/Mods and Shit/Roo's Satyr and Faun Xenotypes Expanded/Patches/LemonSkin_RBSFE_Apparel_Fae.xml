@@ -202,8 +202,8 @@
   </Operation>
   -->
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_NeolithicArmor</li>
@@ -522,8 +522,8 @@
   </Operation>
   -->
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_NeolithicArmorHeadgear</li>

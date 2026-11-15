@@ -513,8 +513,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_PAHDeepHood"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PAHDeepHood"]/recipeMaker</xpath>
     <value>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -892,14 +892,15 @@
 
   <!-- PAN: force these to craft ONLY at Ferny_VanityTable + set researchPrerequisite to Ferny_VanityTable -->
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_PANMuffler"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PANMuffler"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
           <li>Ferny_VanityTable</li>
         </recipeUsers>
         <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+        <displayPriority>999</displayPriority>
       </recipeMaker>
     </value>
   </Operation>

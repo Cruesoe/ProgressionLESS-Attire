@@ -13,13 +13,25 @@
       <techLevel>Industrial</techLevel>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
-    <value>
-      <prerequisites>
-        <li>LemonSkin_RusticClothing</li>
-      </prerequisites>
-    </value>
+  <!-- Replaces Medieval Overhaul's prerequisites when present -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/prerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]/prerequisites</xpath>
+      <value>
+        <prerequisites>
+          <li>LemonSkin_RusticClothing</li>
+        </prerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="ComplexClothing"]</xpath>
+      <value>
+        <prerequisites>
+          <li>LemonSkin_RusticClothing</li>
+        </prerequisites>
+      </value>
+    </nomatch>
   </Operation>
   <!-- PlateArmor: Move, remove ComplexClothing as prereq, add RusticClothing as hidden prereq -->
   <Operation Class="PatchOperationConditional">

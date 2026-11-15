@@ -10,8 +10,8 @@
     </value>
   </Operation>
   <!-- AC_Apparel_HayabusaHelmet -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="AC_Apparel_HayabusaHelmet"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AC_Apparel_HayabusaHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_UltraArmorHeadgear</li>
