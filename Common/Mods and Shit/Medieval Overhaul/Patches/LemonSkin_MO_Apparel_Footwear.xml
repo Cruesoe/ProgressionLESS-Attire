@@ -13,19 +13,24 @@
       <costStuffCount>35</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1600</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>0.25</Mass>
-        <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>1600</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.25</Mass>
+          <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/thingCategories</xpath>
@@ -42,19 +47,24 @@
       <Crafting>5</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsSplinted"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>4000</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>1.5</Mass>
-        <StuffEffectMultiplierArmor>0.378</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsSplinted"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>4000</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>1.5</Mass>
+          <StuffEffectMultiplierArmor>0.378</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsSplinted"]/thingCategories</xpath>
@@ -71,19 +81,24 @@
       <Crafting>7</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>6000</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>2.5</Mass>
-        <StuffEffectMultiplierArmor>0.438</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>6000</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>2.5</Mass>
+          <StuffEffectMultiplierArmor>0.438</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]/thingCategories</xpath>

@@ -17,19 +17,24 @@
       <costStuffCount>60</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/equippedStatOffsets</xpath>
@@ -61,19 +66,24 @@
       <costStuffCount>70</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>12000</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>12000</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]</xpath>

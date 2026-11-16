@@ -42,20 +42,25 @@
       </stuffCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MarketValue>7.5</MarketValue>
-        <WorkToMake>1200</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.05</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MarketValue>7.5</MarketValue>
+          <WorkToMake>1200</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.05</Mass>
+          <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/recipeMaker/researchPrerequisite</xpath>
@@ -70,19 +75,24 @@
       <label>winter hood</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1800</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>1800</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.07</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/recipeMaker/researchPrerequisite</xpath>
@@ -97,19 +107,24 @@
       <costStuffCount>20</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_coif"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1800</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_coif"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>1800</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.07</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_coif"]/recipeMaker/researchPrerequisite</xpath>
@@ -124,19 +139,24 @@
       <label>arming cap</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmingCap"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>2000</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmingCap"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>2000</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.1</Mass>
+          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmingCap"]/recipeMaker/researchPrerequisite</xpath>
@@ -145,19 +165,24 @@
     </value>
   </Operation>
   <!-- DankPyon_Headgear_FullArmingCap -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_FullArmingCap"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>2200</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.15</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_FullArmingCap"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>2200</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.15</Mass>
+          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_FullArmingCap"]/recipeMaker/researchPrerequisite</xpath>
@@ -180,19 +205,24 @@
       <label>cultist hood</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_CultistHood"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1200</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_CultistHood"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>1200</WorkToMake>
+          <MaxHitPoints>80</MaxHitPoints>
+          <Mass>0.07</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_CultistHood"]</xpath>
@@ -227,19 +257,24 @@
       </skillRequirements>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>2500</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>2500</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.5</Mass>
+          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/equippedStatOffsets</xpath>
@@ -258,26 +293,36 @@
       <costStuffCount>40</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>4000</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>2.75</Mass>
-        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
-        <Insulation_Cold>6</Insulation_Cold>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>4000</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>2.75</Mass>
+          <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+          <Insulation_Cold>6</Insulation_Cold>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_PaddedKettleHelmet -->
   <Operation Class="PatchOperationReplace">
@@ -292,29 +337,39 @@
       <costStuffCount>40</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>4000</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>2.75</Mass>
-        <StuffEffectMultiplierArmor>0.23</StuffEffectMultiplierArmor>
-        <Insulation_Cold>6</Insulation_Cold>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>4000</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>2.75</Mass>
+          <StuffEffectMultiplierArmor>0.23</StuffEffectMultiplierArmor>
+          <Insulation_Cold>6</Insulation_Cold>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/equippedStatOffsets</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/apparel/bodyPartGroups</xpath>
-    <value>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedKettleHelmet"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <bodyPartGroups>
+          <li>UpperHead</li>
+        </bodyPartGroups>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_PaddedFlatTopHelmet -->
   <Operation Class="PatchOperationReplace">
@@ -329,41 +384,56 @@
       <costStuffCount>40</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>4000</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>2.75</Mass>
-        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
-        <Insulation_Cold>6</Insulation_Cold>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>4000</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>2.75</Mass>
+          <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+          <Insulation_Cold>6</Insulation_Cold>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedFlatTopHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Chain coif -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>7600</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoif"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>7600</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_ChainCoifClosed - chain coif (closed) -->
   <Operation Class="PatchOperationReplace">
@@ -372,34 +442,44 @@
       <label>chain coif (closed)</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>7600</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>7600</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Full chain coif -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>9400</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>9400</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]</xpath>
@@ -410,27 +490,37 @@
     </value>
   </Operation>
   <!-- Chain nasal helm -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Chain nasal helm (bandana) -->
   <Operation Class="PatchOperationReplace">
@@ -447,58 +537,83 @@
       </costList>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainNasalRedHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Chain kettle helm -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/apparel/bodyPartGroups</xpath>
-    <value>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainKettleHelmet"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <bodyPartGroups>
+          <li>UpperHead</li>
+        </bodyPartGroups>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_Chain_FlatTopHelmet- Chain flat-top -->
   <Operation Class="PatchOperationReplace">
@@ -507,27 +622,37 @@
       <label>chain flat-top helm</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Chain_FlatTopHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/label</xpath>
@@ -535,27 +660,37 @@
       <label>chain flat-top helm (closed)</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>11200</WorkToMake>
-        <MaxHitPoints>120</MaxHitPoints>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>11200</WorkToMake>
+          <MaxHitPoints>120</MaxHitPoints>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_ChainClosedFlatTopHelmet - Chainveil helm -->
   <Operation Class="PatchOperationReplace">
@@ -570,27 +705,37 @@
       <costStuffCount>70</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>12000</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>12000</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_HeavyBarbrute -->
   <Operation Class="PatchOperationReplace">
@@ -605,27 +750,37 @@
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeavyBarbrute"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>14600</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeavyBarbrute"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>14600</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeavyBarbrute"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeavyBarbrute"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_OpenBascinet - visored-less bascinet -->
   <Operation Class="PatchOperationReplace">
@@ -640,27 +795,37 @@
       <researchPrerequisite>PlateArmor</researchPrerequisite>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_OpenBascinet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>14600</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_OpenBascinet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>14600</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_OpenBascinet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_OpenBascinet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_ZweihanderHelm -->
   <Operation Class="PatchOperationReplace">
@@ -726,28 +891,38 @@
       <Crafting>9</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>160</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>160</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-0.5</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Wolf-ribs bascinet -->
   <Operation Class="PatchOperationReplace">
@@ -763,27 +938,37 @@
       <costStuffCount>70</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>14600</WorkToMake>
-        <MaxHitPoints>140</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>14600</WorkToMake>
+          <MaxHitPoints>140</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-6.0</ShootingAccuracyPawn>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-6.0</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Klappviser bascinet -->
   <Operation Class="PatchOperationReplace">
@@ -793,29 +978,39 @@
       <Crafting>9</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>160</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>160</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>
-      Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-0.5</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>
+        Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Klappviser barbute -->
   <Operation Class="PatchOperationReplace">
@@ -825,28 +1020,38 @@
       <Crafting>9</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>160</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>160</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-0.5</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- DankPyon_Headgear_HounskullHelmet -->
   <Operation Class="PatchOperationReplace">
@@ -862,28 +1067,38 @@
       <Crafting>9</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>160</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>160</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-0.5</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Sallet (bellow face, gryphon, visored) -->
   <Operation Class="PatchOperationReplace">
@@ -916,28 +1131,38 @@
     </value>
   </Operation>
   <!-- Great helm -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_GreatHelm"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>160</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_GreatHelm"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>160</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_GreatHelm"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-0.5</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_GreatHelm"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-0.5</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Great helm (Heraldic) -->
   <Operation Class="PatchOperationReplace">
@@ -970,54 +1195,74 @@
       <Crafting>10</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>25000</WorkToMake>
-        <MaxHitPoints>170</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>25000</WorkToMake>
+          <MaxHitPoints>170</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-1</MeleeHitChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-1</MeleeHitChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Gilded armet -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>35800</WorkToMake>
-        <MaxHitPoints>170</MaxHitPoints>
-        <Mass>3.5</Mass>
-        <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>4</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>35800</WorkToMake>
+          <MaxHitPoints>170</MaxHitPoints>
+          <Mass>3.5</Mass>
+          <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>4</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-1</MeleeHitChance>
-        <SocialImpact>0.25</SocialImpact>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Armet"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-1</MeleeHitChance>
+          <SocialImpact>0.25</SocialImpact>
+          <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetGilded"]/recipeMaker/researchPrerequisite</xpath>
@@ -1029,16 +1274,21 @@
     </value>
   </Operation>
   <!-- Named armet -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetNamed"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
-        <MeleeHitChance>-1</MeleeHitChance>
-        <SocialImpact>0.35</SocialImpact>
-        <PainShockThreshold>0.15</PainShockThreshold>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ArmetNamed"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ShootingAccuracyPawn>-8.0</ShootingAccuracyPawn>
+          <MeleeHitChance>-1</MeleeHitChance>
+          <SocialImpact>0.35</SocialImpact>
+          <PainShockThreshold>0.15</PainShockThreshold>
+          <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
 </Patch>

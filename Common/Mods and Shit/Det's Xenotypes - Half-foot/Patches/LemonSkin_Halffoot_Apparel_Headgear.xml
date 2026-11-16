@@ -11,13 +11,18 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DV_Apparel_ServiceHeadset"]/apparel/layers</xpath>
-      <value>
-        <layers>
-          <li>DankPyon_InnerHelmet</li>
-        </layers>
-      </value>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Combat Extended</li>
+      </mods>
+      <nomatch Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="DV_Apparel_ServiceHeadset"]/apparel/layers</xpath>
+        <value>
+          <layers>
+            <li>DankPyon_InnerHelmet</li>
+          </layers>
+        </value>
+      </nomatch>
     </match>
   </Operation>
 </Patch>

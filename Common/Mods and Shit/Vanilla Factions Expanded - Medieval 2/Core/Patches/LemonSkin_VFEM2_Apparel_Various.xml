@@ -7,27 +7,37 @@
       <Crafting>12</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateArmorHeavy"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>50400</WorkToMake>
-        <MaxHitPoints>340</MaxHitPoints>
-        <Mass>20</Mass>
-        <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>20</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateArmorHeavy"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>50400</WorkToMake>
+          <MaxHitPoints>340</MaxHitPoints>
+          <Mass>20</Mass>
+          <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>20</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateArmorHeavy"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-1.2</MoveSpeed>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateArmorHeavy"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <MoveSpeed>-1.2</MoveSpeed>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateArmorHeavy"]/thingCategories</xpath>
@@ -44,19 +54,24 @@
       <costStuffCount>80</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>3200</WorkToMake>
+          <Mass>0.75</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterOutfit"]/equippedStatOffsets</xpath>
@@ -98,19 +113,24 @@
       <costStuffCount>100</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>4300</WorkToMake>
+          <Mass>0.8</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameDress"]/thingCategories</xpath>
@@ -144,19 +164,24 @@
       </costList>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.0</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>20000</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.75</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2.0</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsRobes"]/equippedStatOffsets</xpath>
@@ -215,40 +240,55 @@
       <costStuffCount>180</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>22000</WorkToMake>
-        <MaxHitPoints>230</MaxHitPoints>
-        <Mass>14</Mass>
-        <StuffEffectMultiplierArmor>0.54</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>15</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>22000</WorkToMake>
+          <MaxHitPoints>230</MaxHitPoints>
+          <Mass>14</Mass>
+          <StuffEffectMultiplierArmor>0.54</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>15</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.2</MoveSpeed>
-        <PainShockThreshold>0.15</PainShockThreshold>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <MoveSpeed>-0.2</MoveSpeed>
+          <PainShockThreshold>0.15</PainShockThreshold>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups</xpath>
-    <value>
-      <bodyPartGroups>
-        <li>Shoulders</li>
-        <li>Neck</li>
-        <li>Arms</li>
-        <li>Torso</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <bodyPartGroups>
+          <li>Shoulders</li>
+          <li>Neck</li>
+          <li>Arms</li>
+          <li>Torso</li>
+          <li>Legs</li>
+        </bodyPartGroups>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/thingCategories</xpath>
@@ -287,40 +327,55 @@
       <costStuffCount>140</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>22000</WorkToMake>
-        <MaxHitPoints>200</MaxHitPoints>
-        <Mass>8</Mass>
-        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>10</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>22000</WorkToMake>
+          <MaxHitPoints>200</MaxHitPoints>
+          <Mass>8</Mass>
+          <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>10</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <PainShockThreshold>0.10</PainShockThreshold>
-        <MeleeDodgeChance>5</MeleeDodgeChance>
-      </equippedStatOffsets>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <PainShockThreshold>0.10</PainShockThreshold>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+        </equippedStatOffsets>
+      </value>
+    </nomatch>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/apparel/bodyPartGroups</xpath>
-    <value>
-      <bodyPartGroups>
-        <li>Shoulders</li>
-        <li>Neck</li>
-        <li>Arms</li>
-        <li>Torso</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <bodyPartGroups>
+          <li>Shoulders</li>
+          <li>Neck</li>
+          <li>Arms</li>
+          <li>Torso</li>
+          <li>Legs</li>
+        </bodyPartGroups>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/thingCategories</xpath>
@@ -362,19 +417,24 @@
       <label>light padded armor</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>180</MaxHitPoints>
-        <WorkToMake>3600</WorkToMake>
-        <Mass>5</Mass>
-        <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>180</MaxHitPoints>
+          <WorkToMake>3600</WorkToMake>
+          <Mass>5</Mass>
+          <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedArmor"]/thingCategories</xpath>
@@ -391,19 +451,24 @@
     </value>
   </Operation>
   <!-- VFEM2_Apparel_Mantle -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1000</WorkToMake>
-        <MaxHitPoints>100</MaxHitPoints>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/statBases</xpath>
+      <value>
+        <statBases>
+          <WorkToMake>1000</WorkToMake>
+          <MaxHitPoints>100</MaxHitPoints>
+          <Mass>0.3</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Mantle"]/thingCategories</xpath>

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="USH_RespiratorMask"]/apparel/layers</xpath>
-    <value>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="USH_RespiratorMask"]/apparel/layers</xpath>
+      <value>
+        <layers>
+          <li>Overhead</li>
+        </layers>
+      </value>
+    </nomatch>
   </Operation>
 </Patch>

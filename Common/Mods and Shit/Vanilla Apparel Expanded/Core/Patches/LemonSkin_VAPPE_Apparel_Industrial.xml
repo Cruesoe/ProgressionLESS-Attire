@@ -16,19 +16,24 @@
     </value>
   </Operation>
   <!-- VAE_Apparel_Hoodie -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Hoodie"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>180</MaxHitPoints>
-        <WorkToMake>6000</WorkToMake>
-        <Mass>1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Hoodie"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>180</MaxHitPoints>
+          <WorkToMake>6000</WorkToMake>
+          <Mass>1</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Hoodie"]/apparel/layers</xpath>
@@ -53,19 +58,24 @@
       <costStuffCount>35</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Shorts"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
-        <Mass>0.4</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Shorts"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>1200</WorkToMake>
+          <Mass>0.4</Mass>
+          <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Shorts"]/equippedStatOffsets</xpath>
@@ -85,19 +95,24 @@
       <costStuffCount>45</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Skirt"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2300</WorkToMake>
-        <Mass>0.4</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Skirt"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>2300</WorkToMake>
+          <Mass>0.4</Mass>
+          <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.08</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Skirt"]/equippedStatOffsets</xpath>
@@ -128,19 +143,24 @@
       <costStuffCount>60</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_ShirtandTie"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_ShirtandTie"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>2700</WorkToMake>
+          <Mass>0.3</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_ShirtandTie"]/thingCategories</xpath>
@@ -157,19 +177,24 @@
       <label>suit jacket</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>8000</WorkToMake>
-        <Mass>1.7</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>8000</WorkToMake>
+          <Mass>1.7</Mass>
+          <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/thingCategories</xpath>
@@ -201,19 +226,24 @@
       <costStuffCount>20</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Headgear_Fedora"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Fedora"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>80</MaxHitPoints>
+          <WorkToMake>1800</WorkToMake>
+          <Mass>0.07</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>0.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Fedora"]/equippedStatOffsets</xpath>
@@ -241,19 +271,24 @@
       </skillRequirements>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3600</WorkToMake>
-        <Mass>1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>3600</WorkToMake>
+          <Mass>1</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets</xpath>
@@ -288,19 +323,24 @@
       <costStuffCount>60</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>2700</WorkToMake>
+          <Mass>0.3</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/thingCategories</xpath>
@@ -318,19 +358,24 @@
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2600</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>2600</WorkToMake>
+          <Mass>0.8</Mass>
+          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]/thingCategories</xpath>
@@ -353,19 +398,24 @@
       <costStuffCount>80</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>4300</WorkToMake>
+          <Mass>0.8</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/equippedStatOffsets</xpath>
@@ -394,19 +444,24 @@
       <label>military jacket</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>160</MaxHitPoints>
-        <WorkToMake>8000</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.8</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>160</MaxHitPoints>
+          <WorkToMake>8000</WorkToMake>
+          <Mass>2</Mass>
+          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.8</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/equippedStatOffsets</xpath>
@@ -438,19 +493,24 @@
       <costStuffCount>80</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryUniform"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.36</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryUniform"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>4300</WorkToMake>
+          <Mass>0.8</Mass>
+          <StuffEffectMultiplierArmor>0.36</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryUniform"]/thingCategories</xpath>
@@ -467,21 +527,26 @@
       <label>builder's jacket</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>7000</WorkToMake>
-        <Mass>0.3</Mass>
-        <ArmorRating_Sharp>0.075</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.024</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.15</ArmorRating_Heat>
-        <Insulation_Cold>1.6</Insulation_Cold>
-        <Insulation_Heat>1.6</Insulation_Heat>
-        <EquipDelay>1</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>7000</WorkToMake>
+          <Mass>0.3</Mass>
+          <ArmorRating_Sharp>0.075</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.024</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.15</ArmorRating_Heat>
+          <Insulation_Cold>1.6</Insulation_Cold>
+          <Insulation_Heat>1.6</Insulation_Heat>
+          <EquipDelay>1</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/thingCategories</xpath>
@@ -569,19 +634,24 @@
       </stuffCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>140</MaxHitPoints>
-        <WorkToMake>5000</WorkToMake>
-        <Mass>1.5</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>140</MaxHitPoints>
+          <WorkToMake>5000</WorkToMake>
+          <Mass>1.5</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/equippedStatOffsets</xpath>
@@ -619,19 +689,24 @@
       <label>tank top</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
-        <Mass>0.15</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>1200</WorkToMake>
+          <Mass>0.15</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>1</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/equippedStatOffsets</xpath>
@@ -651,19 +726,24 @@
       <label>sheriff shirt</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>2700</WorkToMake>
+          <Mass>0.3</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>2</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/equippedStatOffsets</xpath>
@@ -689,19 +769,24 @@
       <label>jumpsuit</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/statBases</xpath>
+      <value>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>4300</WorkToMake>
+          <Mass>0.8</Mass>
+          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+          <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+          <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+          <EquipDelay>3.5</EquipDelay>
+        </statBases>
+      </value>
+    </nomatch>
   </Operation>
   <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/equippedStatOffsets</xpath>
