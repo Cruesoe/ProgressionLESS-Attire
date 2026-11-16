@@ -40,7 +40,7 @@
   <ResearchProjectDef>
     <defName>LemonSkin_TribalHeaddress</defName>
     <label>tribal accessories</label>
-    <description>Craft tribal headdresses, shadecones, bandages and cowbells.</description>
+    <description>Craft tribal headdresses and other simple accessories.</description>
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1.00</researchViewX>
