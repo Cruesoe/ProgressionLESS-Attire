@@ -34,6 +34,7 @@ Keeps all of the original's mod support, including:
 [*]Kid Apparel Expanded, Toddlers, River's Tribal Shoes and Mittens, Leaf Skirt, Bandage Wraps, and Roo's Minotaur and Satyr/Faun.
 [*]Victorian Era Apparels, Ponpeco Accessories and Pajamas, Unagi, Cinderella, Imperial Attires, Oracle's Miscellania and other apparel mods, sorted onto the vanity and costuming tables.
 [*]Both Progression: Furniture and ProgressionLESS: Furniture, Better Architect and Node Research.
+[*]Combat Extended: apparel keeps CE's armor, bulk, coverage and layer values.
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
