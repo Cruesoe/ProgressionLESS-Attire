@@ -13,38 +13,6 @@
       <costStuffCount>35</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>6000</WorkToMake>
-          <MaxHitPoints>140</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.438</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]/thingCategories</xpath>
     <value>

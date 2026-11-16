@@ -34,25 +34,6 @@
       <techLevel>Medieval</techLevel>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Footwear_Shoes"]/statBases</xpath>
-      <value>
-        <statBases>
-          <MaxHitPoints>100</MaxHitPoints>
-          <WorkToMake>1600</WorkToMake>
-          <Mass>0.25</Mass>
-          <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.0</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Footwear_Shoes"]/thingCategories</xpath>
     <value>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2700</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1600</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

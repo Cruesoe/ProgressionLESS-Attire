@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.14</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.14</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

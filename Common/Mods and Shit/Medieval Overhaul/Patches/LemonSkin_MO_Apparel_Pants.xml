@@ -45,50 +45,12 @@
       <costStuffCount>60</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>1800</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>1.5</Mass>
-          <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>1.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <!-- Splinted chausses -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesSplinted"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>5</Crafting>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesSplinted"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>6000</WorkToMake>
-          <MaxHitPoints>120</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.378</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesSplinted"]</xpath>
@@ -104,25 +66,6 @@
     <value>
       <Crafting>7</Crafting>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPlate"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>8000</WorkToMake>
-          <MaxHitPoints>140</MaxHitPoints>
-          <Mass>3</Mass>
-          <StuffEffectMultiplierArmor>0.458</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>3</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPlate"]</xpath>

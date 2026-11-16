@@ -37,38 +37,6 @@
       <costStuffCount>150</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>22000</WorkToMake>
-          <MaxHitPoints>230</MaxHitPoints>
-          <Mass>12</Mass>
-          <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>10</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <MoveSpeed>-0.4</MoveSpeed>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/thingCategories</xpath>
     <value>
@@ -83,25 +51,6 @@
     <value>
       <Crafting>9</Crafting>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>7200</WorkToMake>
-          <MaxHitPoints>250</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.78</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/thingCategories</xpath>
@@ -139,25 +88,6 @@
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>10000</WorkToMake>
-          <MaxHitPoints>200</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.46</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>4</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/apparel/bodyPartGroups</xpath>
     <value>
@@ -187,38 +117,6 @@
     <value>
       <costStuffCount>70</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>14600</WorkToMake>
-          <MaxHitPoints>140</MaxHitPoints>
-          <Mass>3.5</Mass>
-          <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/thingCategories</xpath>

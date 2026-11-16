@@ -10,77 +10,7 @@
     </value>
   </Operation>
   <!-- Heavy hauberk (adorned) -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedMailShirt"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>22800</WorkToMake>
-          <MaxHitPoints>200</MaxHitPoints>
-          <Mass>8</Mass>
-          <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <Insulation_Cold>15</Insulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>6</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedMailShirt"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <MoveSpeed>-0.2</MoveSpeed>
-          <SocialImpact>0.05</SocialImpact>
-          <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
-  </Operation>
   <!-- Warrior's armor -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedWarriorArmor"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>22800</WorkToMake>
-          <MaxHitPoints>200</MaxHitPoints>
-          <Mass>8</Mass>
-          <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <Insulation_Cold>15</Insulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>6</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedWarriorArmor"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <MoveSpeed>-0.2</MoveSpeed>
-          <PainShockThreshold>0.05</PainShockThreshold>
-          <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedWarriorArmor"]/apparel/bodyPartGroups/li[.="Legs"]</xpath>
   </Operation>
@@ -90,41 +20,6 @@
     <value>
       <costStuffCount>150</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedHeavyPlate"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>32600</WorkToMake>
-          <MaxHitPoints>290</MaxHitPoints>
-          <Mass>10</Mass>
-          <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-          <Insulation_Cold>15</Insulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>10</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedHeavyPlate"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <MoveSpeed>-0.7</MoveSpeed>
-          <SocialImpact>0.10</SocialImpact>
-          <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
   </Operation>
   <!-- DankPyon_Adorned_HeavyMailCoif - Chain coif (adorned) -->
   <Operation Class="PatchOperationReplace">
@@ -144,25 +39,6 @@
     <value>
       <costStuffCount>50</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>14800</WorkToMake>
-          <MaxHitPoints>120</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]</xpath>
@@ -199,39 +75,6 @@
       <costStuffCount>70</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>19200</WorkToMake>
-          <MaxHitPoints>140</MaxHitPoints>
-          <Mass>3.5</Mass>
-          <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>3</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
-          <SocialImpact>0.05</SocialImpact>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]</xpath>
     <value>
@@ -246,40 +89,6 @@
     <value>
       <Crafting>11</Crafting>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>27200</WorkToMake>
-          <MaxHitPoints>160</MaxHitPoints>
-          <Mass>3.5</Mass>
-          <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>3</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]/equippedStatOffsets</xpath>
-      <value>
-        <equippedStatOffsets>
-          <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
-          <MeleeHitChance>-0.5</MeleeHitChance>
-          <SocialImpact>0.1</SocialImpact>
-        </equippedStatOffsets>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]</xpath>

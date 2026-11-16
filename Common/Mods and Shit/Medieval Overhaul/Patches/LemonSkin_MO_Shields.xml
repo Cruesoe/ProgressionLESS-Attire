@@ -26,25 +26,6 @@
       <Crafting>4</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Shield"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>2600</WorkToMake>
-          <MaxHitPoints>120</MaxHitPoints>
-          <Mass>2.5</Mass>
-          <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-          <Flammability>1.0</Flammability>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <!-- Heater Shield -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_ShieldHeater"]</xpath>
@@ -62,25 +43,6 @@
     <value>
       <costStuffCount>100</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_ShieldHeater"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>8000</WorkToMake>
-          <MaxHitPoints>180</MaxHitPoints>
-          <Mass>4</Mass>
-          <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-          <Flammability>1.0</Flammability>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <!-- ShieldHeaterBase -->
   <Operation Class="PatchOperationReplace">
@@ -114,24 +76,5 @@
     <value>
       <costStuffCount>120</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_ShieldKite"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>12000</WorkToMake>
-          <MaxHitPoints>200</MaxHitPoints>
-          <Mass>6</Mass>
-          <StuffEffectMultiplierArmor>0.44</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-          <Flammability>1.0</Flammability>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
 </Patch>

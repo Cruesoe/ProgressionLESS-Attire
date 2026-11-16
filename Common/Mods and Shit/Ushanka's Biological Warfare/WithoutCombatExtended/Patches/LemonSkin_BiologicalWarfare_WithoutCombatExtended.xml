@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="USH_RespiratorMask"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    </value>
+  </Operation>
+</Patch>

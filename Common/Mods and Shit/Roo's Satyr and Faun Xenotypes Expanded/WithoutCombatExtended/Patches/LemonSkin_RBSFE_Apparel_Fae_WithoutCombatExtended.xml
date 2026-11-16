@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faegarms"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.4</Mass>
+        <Insulation_Cold>8.8</Insulation_Cold>
+        <Insulation_Heat>8.8</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_KidFaegarms"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>60</MaxHitPoints>
+        <WorkToMake>1400</WorkToMake>
+        <Mass>0.4</Mass>
+        <Insulation_Cold>8.8</Insulation_Cold>
+        <Insulation_Heat>8.8</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faepron"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>2</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4000</WorkToMake>
+        <Mass>0.5</Mass>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecloak"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>1</Mass>
+        <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+        <ArmorRating_Heat>-0.05</ArmorRating_Heat>
+        <Insulation_Cold>14.4</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faeleaf"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <MaxHitPoints>69</MaxHitPoints>
+        <WorkToMake>750</WorkToMake>
+        <Mass>0.1</Mass>
+        <EquipDelay>0.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>10</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RBSF_NatureConnectionOffset>0.30</RBSF_NatureConnectionOffset>
+        <MoveSpeed>-0.20</MoveSpeed>
+        <Beauty>5</Beauty>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.05</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>1500</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.05</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>0</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>2100</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/statBases</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>5</Insulation_Cold>
+        <Insulation_Heat>0</Insulation_Heat>
+        <WorkToMake>1200</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.09</Mass>
+        <EquipDelay>0.8</EquipDelay>
+        <Flammability>1.5</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>11200</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Flammability>1</Flammability>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

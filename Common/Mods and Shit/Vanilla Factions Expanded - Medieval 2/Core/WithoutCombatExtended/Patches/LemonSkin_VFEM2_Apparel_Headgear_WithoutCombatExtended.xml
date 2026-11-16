@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>36000</WorkToMake>
+        <MaxHitPoints>180</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>4</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.14</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>6000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.1</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.9</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>5000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.14</Mass>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>7600</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2000</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

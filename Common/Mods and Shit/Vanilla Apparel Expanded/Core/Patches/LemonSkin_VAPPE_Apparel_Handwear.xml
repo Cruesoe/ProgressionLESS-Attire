@@ -25,25 +25,6 @@
       <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VAE_Handwear_Gloves"]/statBases</xpath>
-      <value>
-        <statBases>
-          <MaxHitPoints>100</MaxHitPoints>
-          <WorkToMake>1000</WorkToMake>
-          <Mass>0.15</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.0</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Handwear_Gloves"]/equippedStatOffsets</xpath>
   </Operation>

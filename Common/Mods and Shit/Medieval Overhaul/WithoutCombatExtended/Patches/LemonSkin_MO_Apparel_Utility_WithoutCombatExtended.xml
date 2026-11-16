@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2500</WorkToMake>
+        <MaxHitPoints>50</MaxHitPoints>
+        <Mass>1</Mass>
+        <EquipDelay>1</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

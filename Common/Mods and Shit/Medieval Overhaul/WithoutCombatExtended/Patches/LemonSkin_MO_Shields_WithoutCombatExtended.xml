@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Shield"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2600</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2.5</Mass>
+        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+        <Flammability>1.0</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_ShieldHeater"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>8000</WorkToMake>
+        <MaxHitPoints>180</MaxHitPoints>
+        <Mass>4</Mass>
+        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+        <Flammability>1.0</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_ShieldKite"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Mass>6</Mass>
+        <StuffEffectMultiplierArmor>0.44</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+        <Flammability>1.0</Flammability>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

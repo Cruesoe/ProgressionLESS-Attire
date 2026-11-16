@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- Leather Gloves -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>1000</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>0.15</Mass>
-          <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <!-- Combat Extended removes the gloves' stat offsets -->
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets</xpath>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>Combat Extended</li>
-      </mods>
-      <nomatch Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/equippedStatOffsets</xpath>
-        <value>
-          <equippedStatOffsets>
-            <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-          </equippedStatOffsets>
-        </value>
-      </nomatch>
-    </match>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/thingCategories</xpath>
     <value>
@@ -52,41 +17,6 @@
       <Crafting>5</Crafting>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>4000</WorkToMake>
-          <MaxHitPoints>120</MaxHitPoints>
-          <Mass>1</Mass>
-          <StuffEffectMultiplierArmor>0.378</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/equippedStatOffsets</xpath>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>Combat Extended</li>
-      </mods>
-      <nomatch Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/equippedStatOffsets</xpath>
-        <value>
-          <equippedStatOffsets>
-            <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-          </equippedStatOffsets>
-        </value>
-      </nomatch>
-    </match>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/thingCategories</xpath>
     <value>
@@ -96,41 +26,6 @@
     </value>
   </Operation>
   <!-- Plate gloves -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>6000</WorkToMake>
-          <MaxHitPoints>140</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.438</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/equippedStatOffsets</xpath>
-    <match Class="PatchOperationFindMod">
-      <mods>
-        <li>Combat Extended</li>
-      </mods>
-      <nomatch Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/equippedStatOffsets</xpath>
-        <value>
-          <equippedStatOffsets>
-            <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
-          </equippedStatOffsets>
-        </value>
-      </nomatch>
-    </match>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/thingCategories</xpath>
     <value>

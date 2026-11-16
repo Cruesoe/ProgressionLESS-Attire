@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Rags"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2000</WorkToMake>
+        <Mass>0.4</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

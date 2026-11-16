@@ -7,25 +7,6 @@
       <label>sackcloth</label>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/statBases</xpath>
-      <value>
-        <statBases>
-          <MaxHitPoints>100</MaxHitPoints>
-          <WorkToMake>2000</WorkToMake>
-          <Mass>0.25</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>1.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/apparel/bodyPartGroups</xpath>
     <value>
@@ -55,25 +36,6 @@
     <value>
       <costStuffCount>55</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>5000</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>1.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/apparel/bodyPartGroups</xpath>
@@ -107,25 +69,6 @@
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>3100</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>0.3</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>1.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/thingCategories</xpath>
     <value>
@@ -155,25 +98,6 @@
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>3100</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>0.3</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>1.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/thingCategories</xpath>
     <value>
@@ -192,25 +116,6 @@
     </value>
   </Operation>
   <!-- DankPyon_Apparel_Padded_Leather - Padded Armor -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>6000</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>2</Mass>
-          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>3</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/thingCategories</xpath>
     <value>
@@ -225,25 +130,6 @@
     <value>
       <costStuffCount>70</costStuffCount>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>5000</WorkToMake>
-          <MaxHitPoints>100</MaxHitPoints>
-          <Mass>1.5</Mass>
-          <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>2.5</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/apparel/bodyPartGroups/li[.="Shoulders"]</xpath>

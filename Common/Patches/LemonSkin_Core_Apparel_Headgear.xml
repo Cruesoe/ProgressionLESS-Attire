@@ -28,25 +28,6 @@
     </value>
   </Operation>
   <!-- Apparel_CowboyHat -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/statBases</xpath>
-      <value>
-        <statBases>
-          <MaxHitPoints>80</MaxHitPoints>
-          <WorkToMake>1800</WorkToMake>
-          <Mass>0.14</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>0.8</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/equippedStatOffsets</xpath>
     <value>
@@ -57,24 +38,6 @@
     </value>
   </Operation>
   <!-- Apparel_BowlerHat -->
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Combat Extended</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/statBases</xpath>
-      <value>
-        <statBases>
-          <WorkToMake>1800</WorkToMake>
-          <Mass>0.14</Mass>
-          <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-          <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-          <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-          <EquipDelay>0.8</EquipDelay>
-        </statBases>
-      </value>
-    </nomatch>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/equippedStatOffsets</xpath>
     <value>
