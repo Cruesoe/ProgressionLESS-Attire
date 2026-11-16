@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Restores the carrying capacity offset that The Generic Ammo Experience replaces with CarryBulk -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets/CarryingCapacity</xpath>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/equippedStatOffsets</xpath>
+        <value>
+          <CarryingCapacity>15</CarryingCapacity>
+        </value>
+      </match>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -13,9 +11,8 @@
       </recipeMaker>
     </value>
   </Operation>
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="PH_BunnyHeadband"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_BunnyHeadband"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -25,6 +22,4 @@
       </recipeMaker>
     </value>
   </Operation>
-
-
 </Patch>

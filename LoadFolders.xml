@@ -3,31 +3,50 @@
   <v1.6>
     <li>/</li>
     <li>Common</li>
+    <li IfModNotActive="CETeam.CombatExtended">Common/WithoutCombatExtended</li>
+    <li IfModNotActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/WithoutMedievalOverhaul</li>
     <li>1.6</li>
+    <li IfModActive="ludeon.rimworld.royalty" IfModNotActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Royalty/WithoutMedievalOverhaul</li>
     <li IfModActive="ludeon.rimworld.royalty">Common/Mods and Shit/Royalty</li>
     <li IfModActive="ludeon.rimworld.ideology">Common/Mods and Shit/Ideology</li>
     <li IfModActive="ludeon.rimworld.biotech">Common/Mods and Shit/Biotech</li>
+    <li IfModActive="ludeon.rimworld.biotech" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Biotech/WithoutCombatExtended</li>
     <li IfModActive="ludeon.rimworld.anomaly">Common/Mods and Shit/Anomaly</li>
     <li IfModActive="ludeon.rimworld.odyssey">Common/Mods and Shit/Odyssey</li>
 
     <!-- For rebalances -->
     <li IfModActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Medieval Overhaul/WithoutCombatExtended</li>
     <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont">Common/Mods and Shit/Medieval Overhaul - House Roxmont</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Medieval Overhaul - House Roxmont/WithoutCombatExtended</li>
+
+    <!-- Later entries' patches apply first, so these follow the Core rebalances below -->
+    <li IfModActiveAll="Rosalina.Mating.Press,OskarPotocki.VFE.Medieval2,VanillaExpanded.VARME">Common/Mods and Shit/Generic Ammo Experience/Vanilla Factions Expanded - Medieval 2</li>
+    <li IfModActiveAll="Rosalina.Mating.Press,VanillaExpanded.VAPPE">Common/Mods and Shit/Generic Ammo Experience/Vanilla Apparel Expanded</li>
 
     <li IfModActive="OskarPotocki.VFE.Medieval2">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core/WithoutCombatExtended</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li>
 
     <li IfModActive="OskarPotocki.VFE.Classical">Common/Mods and Shit/Vanilla Factions Expanded - Classical</li>
+    <li IfModActive="OskarPotocki.VFE.Classical" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Classical/WithoutCombatExtended</li>
+    <!-- Leafwear: VFE Tribals with Leaf Skirt or Satyr and Faun; its Node Research entry is listed first so it patches last -->
+    <li IfModActive="sd.leafskirt,tug.SatyrFaun.Expanded" IfModActiveAll="OskarPotocki.VFE.Tribals,ferny.noderesearch">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/LeafwearNodeResearch</li>
+    <li IfModActive="sd.leafskirt,tug.SatyrFaun.Expanded" IfModActiveAll="OskarPotocki.VFE.Tribals">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/Leafwear</li>
     <li IfModActive="OskarPotocki.VFE.Tribals">Common/Mods and Shit/Vanilla Factions Expanded - Tribals</li>
+    <li IfModActive="OskarPotocki.VFE.Tribals" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/WithoutCombatExtended</li>
     <li IfModActive="OskarPotocki.VFE.Empire">Common/Mods and Shit/Vanilla Factions Expanded - Empire</li>
     <li IfModActive="OskarPotocki.VFE.Pirates">Common/Mods and Shit/Vanilla Factions Expanded - Pirates</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Common/Mods and Shit/Vanilla Factions Expanded - Settlers</li>
 
     <li IfModActive="VanillaExpanded.VAPPE">Common/Mods and Shit/Vanilla Apparel Expanded/Core</li>
+    <li IfModActive="VanillaExpanded.VAPPE" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Apparel Expanded/Core/WithoutCombatExtended</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.royalty">Common/Mods and Shit/Vanilla Apparel Expanded/Royalty</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly">Common/Mods and Shit/Vanilla Apparel Expanded/Anomaly</li>
 
     <li IfModActiveAll="VanillaExpanded.VARME">Common/Mods and Shit/Vanilla Armor Expanded/Core</li>
+    <li IfModActiveAll="VanillaExpanded.VARME" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Armor Expanded/Core/WithoutCombatExtended</li>
+    <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul" IfModNotActive="VanillaExpanded.VAPPE">Common/Mods and Shit/Vanilla Armor Expanded/MedievalOverhaulWithoutVAPPE</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Armor Expanded/Medieval Overhaul</li>
     <li IfModActiveAll="VanillaExpanded.VARME,ludeon.rimworld.royalty">Common/Mods and Shit/Vanilla Armor Expanded/Royalty</li>
 
@@ -40,12 +59,12 @@
 
     <li IfModActive="VanillaExpanded.VAnomalyEInsanity">Common/Mods and Shit/Vanilla Anomaly Expanded - Insanity</li>
     <li IfModActive="VanillaExpanded.VPsycastsE">Common/Mods and Shit/Vanilla Psycasts Expanded</li>
-    <li IfModActive="VanillaExpanded.VGeneticsE">Common/Mods and Shit/Vanilla Genetics Expanded</li>
     <li IfModActive="VanillaExpanded.VIEHAR">Common/Mods and Shit/Vanilla Ideology Expanded - Hats and Rags</li>
-    <li IfModActive="VanillaExpanded.VFEArt">Common/Mods and Shit/Vanilla Furniture Expanded - Art</li>
+    <li IfModActive="VanillaExpanded.VIEHAR" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Ideology Expanded - Hats and Rags/WithoutCombatExtended</li>
 
     <li IfModActive="det.boglegs">Common/Mods and Shit/Det's Xenotypes - Boglegs</li>
     <li IfModActive="det.halffoot">Common/Mods and Shit/Det's Xenotypes - Half-foot</li>
+    <li IfModActive="det.halffoot" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Det's Xenotypes - Half-foot/WithoutCombatExtended</li>
     <li IfModActive="det.brawnum">Common/Mods and Shit/Det's Xenotypes - Brawnum</li>
     <li IfModActive="det.venators">Common/Mods and Shit/Det's Xenotypes - Venators</li>
     <li IfModActive="det.avaloi">Common/Mods and Shit/Det's Xenotypes - Avaloi</li>
@@ -60,18 +79,24 @@
     <li IfModActive="det.epochsgolems">Common/Mods and Shit/Epochs - Golems</li>
     <li IfModActive="Rooboid.Paintings.Ex">Common/Mods and Shit/Roo's Painting Expansion</li>
     <li IfModActive="ocarina.prisonerjumpsuits">Common/Mods and Shit/Prisoner Jumpsuits</li>
+    <li IfModActiveAll="sd.leafskirt,OskarPotocki.VFE.Tribals">Common/Mods and Shit/Leaf Skirt/VFETribals</li>
     <li IfModActive="sd.leafskirt">Common/Mods and Shit/Leaf Skirt</li>
+    <li IfModActiveAll="SK.BandageWrap,VanillaExpanded.VAPPE">Common/Mods and Shit/Bandage Wraps/VanillaApparelExpanded</li>
     <li IfModActive="SK.BandageWrap">Common/Mods and Shit/Bandage Wraps</li>
     <li IfModActive="Gerrymon.StylizedSlaveCollar">Common/Mods and Shit/Stylized Slave Collars and Headgears</li>
     <li IfModActive="cyanobot.toddlers">Common/Mods and Shit/Toddlers</li>
     <li IfModActive="XMB.AncientUrbanrUins.MO">Common/Mods and Shit/Ancient Urban Ruins</li>
     <li IfModActive="Trickity.Samurai.Faction">Common/Mods and Shit/Samurai Faction</li>
+    <li IfModActive="Trickity.Samurai.Faction" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Samurai Faction/WithoutCombatExtended</li>
     <li IfModActive="matte.rimstuff.tacticoolops">Common/Mods and Shit/Tacticool Ops</li>
     <li IfModActive="BiomesTeam.BiomesFossils">Common/Mods and Shit/Biomes! Fossils</li>
     <li IfModActive="tug.Minotaur.Expanded">Common/Mods and Shit/Roo's Minotaur Xenotype Expanded</li>
+    <li IfModActiveAll="tug.SatyrFaun.Expanded,OskarPotocki.VFE.Tribals">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded/VFETribals</li>
     <li IfModActive="tug.SatyrFaun.Expanded">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded</li>
+    <li IfModActive="tug.SatyrFaun.Expanded" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded/WithoutCombatExtended</li>
     <li IfModActive="as1aw.morehunterdrones">Common/Mods and Shit/More Hunter Drones</li>
     <li IfModActive="Ushanka.BiologicalWarfare">Common/Mods and Shit/Ushanka's Biological Warfare</li>
+    <li IfModActive="Ushanka.BiologicalWarfare" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Ushanka's Biological Warfare/WithoutCombatExtended</li>
     <li IfModActive="CatLover366.BootsAndGloves">Common/Mods and Shit/Cat's Boots and Gloves</li>
     <li IfModActive="River.Tribal.Shoes">Common/Mods and Shit/River's Tribal Shoes</li>
 
@@ -82,6 +107,7 @@
 
     <!-- For bench organization -->
     <li IfModActive="Gunmar.VictorianEraApparels">Common/Mods and Shit/Victorian Era Apparels!</li>
+    <li IfModActive="Gunmar.VictorianEraApparels" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Victorian Era Apparels!/WithoutCombatExtended</li>
     <li IfModActive="UNAGI.huyuhuku.SET">Common/Mods and Shit/UNAGI Winter Clothing</li>
     <li IfModActive="yamazaki.PreschoolerOutfits">Common/Mods and Shit/Preschooler Clothes</li>
     <li IfModActive="unagi.ap.dress">Common/Mods and Shit/Unagi Royalty</li>
@@ -93,7 +119,7 @@
     <li IfModActive="xmb.ancientthreat.mo">Common/Mods and Shit/Ancient Amorphous Threat</li>
     <li IfModActive="loopus.primhairs">Common/Mods and Shit/Prim's Hair</li>
     <li IfModActive="unagi.a.d.coat">Common/Mods and Shit/UNAGI Another Duster Coat</li>
-    <li IfModActive="mo.decorationsluxury">Common/Mods and Shit/Decorations and dishes at Gorgeous banquet</li>
+    <li IfModActive="mo.decorationsluxury">Common/Mods and Shit/Decorations and Dishes at Gorgeous Banquet</li>
     <li IfModActive="pu.lunartikaaa">Common/Mods and Shit/Police Uniforms</li>
     <li IfModActive="ponpeco.ponpecopajamas">Common/Mods and Shit/Ponpeco Pajamas</li>
     <li IfModActive="resplice.xotr.charmweavers">Common/Mods and Shit/Resplice Charmweavers</li>
@@ -101,38 +127,57 @@
     <li IfModActive="zal.bananasuit">Common/Mods and Shit/Banana Suit</li>
     <li IfModActive="dress.cinderella">Common/Mods and Shit/Cinderella Apparel</li>
     <li IfModActive="cat.imperial.attires">Common/Mods and Shit/Imperial Attires</li>
+    <li IfModActive="cat.imperial.attires" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Imperial Attires/WithoutCombatExtended</li>
     <li IfModActive="BotchJob.divineorder">Common/Mods and Shit/Divine Order</li>
     <li IfModActive="River.Tribal.Mittens">Common/Mods and Shit/River's Tribal Mittens</li>
-    <!-- <li IfModActive="smiley.faced.mask">Common/Mods and Shit/Smiley Face Mask</li> -->
   </v1.6>
   <v1.7>
     <li>/</li>
     <li>Common</li>
+    <li IfModNotActive="CETeam.CombatExtended">Common/WithoutCombatExtended</li>
+    <li IfModNotActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/WithoutMedievalOverhaul</li>
     <li>1.7</li>
+    <li IfModActive="ludeon.rimworld.royalty" IfModNotActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Royalty/WithoutMedievalOverhaul</li>
     <li IfModActive="ludeon.rimworld.royalty">Common/Mods and Shit/Royalty</li>
     <li IfModActive="ludeon.rimworld.ideology">Common/Mods and Shit/Ideology</li>
     <li IfModActive="ludeon.rimworld.biotech">Common/Mods and Shit/Biotech</li>
+    <li IfModActive="ludeon.rimworld.biotech" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Biotech/WithoutCombatExtended</li>
     <li IfModActive="ludeon.rimworld.anomaly">Common/Mods and Shit/Anomaly</li>
     <li IfModActive="ludeon.rimworld.odyssey">Common/Mods and Shit/Odyssey</li>
 
     <!-- For rebalances -->
     <li IfModActive="DankPyon.Medieval.Overhaul">Common/Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Medieval Overhaul/WithoutCombatExtended</li>
     <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont">Common/Mods and Shit/Medieval Overhaul - House Roxmont</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Medieval Overhaul - House Roxmont/WithoutCombatExtended</li>
+
+    <!-- Later entries' patches apply first, so these follow the Core rebalances below -->
+    <li IfModActiveAll="Rosalina.Mating.Press,OskarPotocki.VFE.Medieval2,VanillaExpanded.VARME">Common/Mods and Shit/Generic Ammo Experience/Vanilla Factions Expanded - Medieval 2</li>
+    <li IfModActiveAll="Rosalina.Mating.Press,VanillaExpanded.VAPPE">Common/Mods and Shit/Generic Ammo Experience/Vanilla Apparel Expanded</li>
 
     <li IfModActive="OskarPotocki.VFE.Medieval2">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Core/WithoutCombatExtended</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li>
 
     <li IfModActive="OskarPotocki.VFE.Classical">Common/Mods and Shit/Vanilla Factions Expanded - Classical</li>
+    <li IfModActive="OskarPotocki.VFE.Classical" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Classical/WithoutCombatExtended</li>
+    <!-- Leafwear: VFE Tribals with Leaf Skirt or Satyr and Faun; its Node Research entry is listed first so it patches last -->
+    <li IfModActive="sd.leafskirt,tug.SatyrFaun.Expanded" IfModActiveAll="OskarPotocki.VFE.Tribals,ferny.noderesearch">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/LeafwearNodeResearch</li>
+    <li IfModActive="sd.leafskirt,tug.SatyrFaun.Expanded" IfModActiveAll="OskarPotocki.VFE.Tribals">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/Leafwear</li>
     <li IfModActive="OskarPotocki.VFE.Tribals">Common/Mods and Shit/Vanilla Factions Expanded - Tribals</li>
+    <li IfModActive="OskarPotocki.VFE.Tribals" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Factions Expanded - Tribals/WithoutCombatExtended</li>
     <li IfModActive="OskarPotocki.VFE.Empire">Common/Mods and Shit/Vanilla Factions Expanded - Empire</li>
     <li IfModActive="OskarPotocki.VFE.Pirates">Common/Mods and Shit/Vanilla Factions Expanded - Pirates</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule">Common/Mods and Shit/Vanilla Factions Expanded - Settlers</li>
 
     <li IfModActive="VanillaExpanded.VAPPE">Common/Mods and Shit/Vanilla Apparel Expanded/Core</li>
+    <li IfModActive="VanillaExpanded.VAPPE" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Apparel Expanded/Core/WithoutCombatExtended</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.royalty">Common/Mods and Shit/Vanilla Apparel Expanded/Royalty</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly">Common/Mods and Shit/Vanilla Apparel Expanded/Anomaly</li>
 
     <li IfModActiveAll="VanillaExpanded.VARME">Common/Mods and Shit/Vanilla Armor Expanded/Core</li>
+    <li IfModActiveAll="VanillaExpanded.VARME" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Armor Expanded/Core/WithoutCombatExtended</li>
+    <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul" IfModNotActive="VanillaExpanded.VAPPE">Common/Mods and Shit/Vanilla Armor Expanded/MedievalOverhaulWithoutVAPPE</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul">Common/Mods and Shit/Vanilla Armor Expanded/Medieval Overhaul</li>
     <li IfModActiveAll="VanillaExpanded.VARME,ludeon.rimworld.royalty">Common/Mods and Shit/Vanilla Armor Expanded/Royalty</li>
 
@@ -145,12 +190,12 @@
 
     <li IfModActive="VanillaExpanded.VAnomalyEInsanity">Common/Mods and Shit/Vanilla Anomaly Expanded - Insanity</li>
     <li IfModActive="VanillaExpanded.VPsycastsE">Common/Mods and Shit/Vanilla Psycasts Expanded</li>
-    <li IfModActive="VanillaExpanded.VGeneticsE">Common/Mods and Shit/Vanilla Genetics Expanded</li>
     <li IfModActive="VanillaExpanded.VIEHAR">Common/Mods and Shit/Vanilla Ideology Expanded - Hats and Rags</li>
-    <li IfModActive="VanillaExpanded.VFEArt">Common/Mods and Shit/Vanilla Furniture Expanded - Art</li>
+    <li IfModActive="VanillaExpanded.VIEHAR" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Vanilla Ideology Expanded - Hats and Rags/WithoutCombatExtended</li>
 
     <li IfModActive="det.boglegs">Common/Mods and Shit/Det's Xenotypes - Boglegs</li>
     <li IfModActive="det.halffoot">Common/Mods and Shit/Det's Xenotypes - Half-foot</li>
+    <li IfModActive="det.halffoot" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Det's Xenotypes - Half-foot/WithoutCombatExtended</li>
     <li IfModActive="det.brawnum">Common/Mods and Shit/Det's Xenotypes - Brawnum</li>
     <li IfModActive="det.venators">Common/Mods and Shit/Det's Xenotypes - Venators</li>
     <li IfModActive="det.avaloi">Common/Mods and Shit/Det's Xenotypes - Avaloi</li>
@@ -165,18 +210,24 @@
     <li IfModActive="det.epochsgolems">Common/Mods and Shit/Epochs - Golems</li>
     <li IfModActive="Rooboid.Paintings.Ex">Common/Mods and Shit/Roo's Painting Expansion</li>
     <li IfModActive="ocarina.prisonerjumpsuits">Common/Mods and Shit/Prisoner Jumpsuits</li>
+    <li IfModActiveAll="sd.leafskirt,OskarPotocki.VFE.Tribals">Common/Mods and Shit/Leaf Skirt/VFETribals</li>
     <li IfModActive="sd.leafskirt">Common/Mods and Shit/Leaf Skirt</li>
+    <li IfModActiveAll="SK.BandageWrap,VanillaExpanded.VAPPE">Common/Mods and Shit/Bandage Wraps/VanillaApparelExpanded</li>
     <li IfModActive="SK.BandageWrap">Common/Mods and Shit/Bandage Wraps</li>
     <li IfModActive="Gerrymon.StylizedSlaveCollar">Common/Mods and Shit/Stylized Slave Collars and Headgears</li>
     <li IfModActive="cyanobot.toddlers">Common/Mods and Shit/Toddlers</li>
     <li IfModActive="XMB.AncientUrbanrUins.MO">Common/Mods and Shit/Ancient Urban Ruins</li>
     <li IfModActive="Trickity.Samurai.Faction">Common/Mods and Shit/Samurai Faction</li>
+    <li IfModActive="Trickity.Samurai.Faction" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Samurai Faction/WithoutCombatExtended</li>
     <li IfModActive="matte.rimstuff.tacticoolops">Common/Mods and Shit/Tacticool Ops</li>
     <li IfModActive="BiomesTeam.BiomesFossils">Common/Mods and Shit/Biomes! Fossils</li>
     <li IfModActive="tug.Minotaur.Expanded">Common/Mods and Shit/Roo's Minotaur Xenotype Expanded</li>
+    <li IfModActiveAll="tug.SatyrFaun.Expanded,OskarPotocki.VFE.Tribals">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded/VFETribals</li>
     <li IfModActive="tug.SatyrFaun.Expanded">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded</li>
+    <li IfModActive="tug.SatyrFaun.Expanded" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Roo's Satyr and Faun Xenotypes Expanded/WithoutCombatExtended</li>
     <li IfModActive="as1aw.morehunterdrones">Common/Mods and Shit/More Hunter Drones</li>
     <li IfModActive="Ushanka.BiologicalWarfare">Common/Mods and Shit/Ushanka's Biological Warfare</li>
+    <li IfModActive="Ushanka.BiologicalWarfare" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Ushanka's Biological Warfare/WithoutCombatExtended</li>
     <li IfModActive="CatLover366.BootsAndGloves">Common/Mods and Shit/Cat's Boots and Gloves</li>
     <li IfModActive="River.Tribal.Shoes">Common/Mods and Shit/River's Tribal Shoes</li>
 
@@ -187,6 +238,7 @@
 
     <!-- For bench organization -->
     <li IfModActive="Gunmar.VictorianEraApparels">Common/Mods and Shit/Victorian Era Apparels!</li>
+    <li IfModActive="Gunmar.VictorianEraApparels" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Victorian Era Apparels!/WithoutCombatExtended</li>
     <li IfModActive="UNAGI.huyuhuku.SET">Common/Mods and Shit/UNAGI Winter Clothing</li>
     <li IfModActive="yamazaki.PreschoolerOutfits">Common/Mods and Shit/Preschooler Clothes</li>
     <li IfModActive="unagi.ap.dress">Common/Mods and Shit/Unagi Royalty</li>
@@ -198,7 +250,7 @@
     <li IfModActive="xmb.ancientthreat.mo">Common/Mods and Shit/Ancient Amorphous Threat</li>
     <li IfModActive="loopus.primhairs">Common/Mods and Shit/Prim's Hair</li>
     <li IfModActive="unagi.a.d.coat">Common/Mods and Shit/UNAGI Another Duster Coat</li>
-    <li IfModActive="mo.decorationsluxury">Common/Mods and Shit/Decorations and dishes at Gorgeous banquet</li>
+    <li IfModActive="mo.decorationsluxury">Common/Mods and Shit/Decorations and Dishes at Gorgeous Banquet</li>
     <li IfModActive="pu.lunartikaaa">Common/Mods and Shit/Police Uniforms</li>
     <li IfModActive="ponpeco.ponpecopajamas">Common/Mods and Shit/Ponpeco Pajamas</li>
     <li IfModActive="resplice.xotr.charmweavers">Common/Mods and Shit/Resplice Charmweavers</li>
@@ -206,8 +258,8 @@
     <li IfModActive="zal.bananasuit">Common/Mods and Shit/Banana Suit</li>
     <li IfModActive="dress.cinderella">Common/Mods and Shit/Cinderella Apparel</li>
     <li IfModActive="cat.imperial.attires">Common/Mods and Shit/Imperial Attires</li>
+    <li IfModActive="cat.imperial.attires" IfModNotActive="CETeam.CombatExtended">Common/Mods and Shit/Imperial Attires/WithoutCombatExtended</li>
     <li IfModActive="BotchJob.divineorder">Common/Mods and Shit/Divine Order</li>
     <li IfModActive="River.Tribal.Mittens">Common/Mods and Shit/River's Tribal Mittens</li>
-    <!-- <li IfModActive="smiley.faced.mask">Common/Mods and Shit/Smiley Face Mask</li> -->
   </v1.7>
 </loadFolders>

@@ -224,14 +224,15 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="UNA_MstyleShirtpants"]/apparel/defaultOutfitTags</xpath>
     </Operation>
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="UNA_MstyleShirtpants"]</xpath>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="UNA_MstyleShirtpants"]/recipeMaker</xpath>
         <value>
             <recipeMaker>
                 <recipeUsers Inherit="False">
                     <li>Ferny_VanityTable</li>
                 </recipeUsers>
                 <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+                <displayPriority>208</displayPriority>
             </recipeMaker>
         </value>
     </Operation>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- Change Research Requirement -->
+  <!-- Change Research Requirement -->
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ResearchProjectDef[defName = "BotchJob_DivineOrderSmithing"]/prerequisites/li[text()="ComplexClothing"]</xpath>
-		<value>
-			<li>LemonSkin_RusticClothing</li>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "BotchJob_DivineOrderSmithing"]/prerequisites/li[text()="ComplexClothing"]</xpath>
+    <value>
+      <li>LemonSkin_RusticClothing</li>
+    </value>
+  </Operation>
 
 </Patch>

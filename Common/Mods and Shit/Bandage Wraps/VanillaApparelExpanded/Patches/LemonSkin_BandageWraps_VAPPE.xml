@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_SterileAttire: replaces its prerequisites -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]/prerequisites</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]/prerequisites</xpath>
+      <value>
+        <prerequisites>
+          <li>LemonSkin_TribalHeaddress</li>
+        </prerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ResearchProjectDef[defName="VAE_SterileAttire"]</xpath>
+      <value>
+        <prerequisites>
+          <li>LemonSkin_TribalHeaddress</li>
+        </prerequisites>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

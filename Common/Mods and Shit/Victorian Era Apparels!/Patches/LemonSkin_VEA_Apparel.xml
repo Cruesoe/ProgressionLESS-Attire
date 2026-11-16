@@ -30,21 +30,6 @@
       <costStuffCount>85</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
-      defName="Gunmar_Apparel_DressB"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
       defName="Gunmar_Apparel_DressB"]/equippedStatOffsets</xpath>
@@ -78,20 +63,6 @@
       </stuffCategories>
     </value>
   </Operation> -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
       defName="Gunmar_Apparel_Maidb"]/equippedStatOffsets</xpath>
@@ -137,20 +108,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -165,20 +122,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/costStuffCount</xpath>
     <value>
       <costStuffCount>85</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46 </StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
@@ -202,20 +145,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4300</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -230,20 +159,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressCoat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>80</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressCoat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>200</MaxHitPoints>
-        <WorkToMake>10000</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
@@ -264,20 +179,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>80</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>200</MaxHitPoints>
-        <WorkToMake>10000</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
@@ -305,20 +206,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/costStuffCount</xpath>
     <value>
       <costStuffCount>80</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>8000</WorkToMake>
-        <Mass>1.7</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -358,20 +245,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>45</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>12000</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -424,30 +297,6 @@
         <Steel>60</Steel>
         <ComponentIndustrial>1</ComponentIndustrial>
       </costList>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>9000</WorkToMake>
-        <MaxHitPoints>200</MaxHitPoints>
-        <Mass>4</Mass>
-        <Flammability>0.6</Flammability>
-        <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.27</ArmorRating_Heat>
-        <Insulation_Cold>1</Insulation_Cold>
-        <EquipDelay>5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.12</MoveSpeed>
-      </equippedStatOffsets>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -525,20 +374,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Coat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>160</MaxHitPoints>
-        <WorkToMake>8000</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Coat"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
@@ -580,20 +415,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Hussar_Jacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>160</MaxHitPoints>
-        <WorkToMake>8000</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Hussar_Jacket"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
@@ -620,20 +441,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_FeatheredHat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>50</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_FeatheredHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>6000</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -672,20 +479,6 @@
       <costStuffCount>45</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/apparel</xpath>
     <value>
@@ -712,20 +505,6 @@
       <costStuffCount>45</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/apparel</xpath>
     <value>
@@ -750,20 +529,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>20</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -805,20 +570,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_TopHat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>40</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_TopHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>6000</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -864,20 +615,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Helmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Helmet"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
@@ -909,20 +646,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Slouch_Hat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>25</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Slouch_Hat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.14</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -958,20 +681,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Shako_Hat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>15</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Shako_Hat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -1012,20 +721,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Metal_Helmet"]/costStuffCount</xpath>
     <value>
       <costStuffCount>30</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Metal_Helmet"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
@@ -1070,22 +765,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Glasses"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2000</WorkToMake>
-        <Mass>0.01</Mass>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.04</ArmorRating_Heat>
-        <Insulation_Cold>0</Insulation_Cold>
-        <Insulation_Heat>0</Insulation_Heat>
-        <EquipDelay>0.4</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Glasses"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
@@ -1114,22 +793,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Monocle"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>5</Crafting>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Monocle"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2000</WorkToMake>
-        <Mass>0.01</Mass>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.04</ArmorRating_Heat>
-        <Insulation_Cold>0</Insulation_Cold>
-        <Insulation_Heat>0</Insulation_Heat>
-        <EquipDelay>0.4</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

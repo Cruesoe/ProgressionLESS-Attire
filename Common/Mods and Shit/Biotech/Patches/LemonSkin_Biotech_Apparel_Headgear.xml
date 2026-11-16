@@ -17,17 +17,6 @@
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/apparel/layers</xpath>
-      <value>
-        <layers>
-          <li>DankPyon_InnerHelmet</li>
-        </layers>
-      </value>
-    </match>
-  </Operation>
 
 
   <!-- Apparel_ArrayHeadset -->
@@ -38,17 +27,6 @@
         <li>LemonSkin_SpacerHeadgear</li>
       </thingCategories>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ApparelLayerDef[defName="DankPyon_InnerHelmet"]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]/apparel/layers</xpath>
-      <value>
-        <layers>
-          <li>DankPyon_InnerHelmet</li>
-        </layers>
-      </value>
-    </match>
   </Operation>
 
 

@@ -8,23 +8,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_StrawHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <Flammability>1.5</Flammability>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
-        <ArmorRating_Heat>-0.1</ArmorRating_Heat>
-        <Insulation_Cold>0</Insulation_Cold>
-        <Insulation_Heat>8</Insulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_StrawHat"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
@@ -45,31 +28,6 @@
       <costList>
         <Hay>80</Hay>
       </costList>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_StrawCoat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>4000</WorkToMake>
-        <Mass>1</Mass>
-        <Flammability>1.5</Flammability>
-        <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.025</ArmorRating_Blunt>
-        <ArmorRating_Heat>-0.1</ArmorRating_Heat>
-        <Insulation_Cold>10</Insulation_Cold>
-        <Insulation_Heat>0</Insulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_StrawCoat"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <HuntingStealth>0.05</HuntingStealth>
-      </equippedStatOffsets>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

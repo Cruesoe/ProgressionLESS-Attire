@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Zweihanders_Cuirass_Roxmont"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>23600</WorkToMake>
+        <MaxHitPoints>250</MaxHitPoints>
+        <Mass>8</Mass>
+        <StuffEffectMultiplierArmor>0.78</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Zweihanders_Cuirass_Roxmont"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MoveSpeed>-0.4</MoveSpeed>
+        <SocialImpact>0.1</SocialImpact>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate_Roxmont"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>25400</WorkToMake>
+        <MaxHitPoints>290</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <Insulation_Cold>20</Insulation_Cold>
+        <EquipDelay>10</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate_Roxmont"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MoveSpeed>-0.7</MoveSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

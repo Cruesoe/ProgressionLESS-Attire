@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- RBSFE_Faecrown -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- RBSFE_Faerose -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+  <!-- RBSFE_Faescarf -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/recipeMaker</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_Leafwear</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

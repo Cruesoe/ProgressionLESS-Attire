@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- VIEHAR_Apparel_Beads -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Beads"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>160</MaxHitPoints>
-        <WorkToMake>2600</WorkToMake>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Beads"]</xpath>
     <value>
@@ -42,20 +28,6 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BishopHat"]/techLevel</xpath>
     <value>
       <techLevel>Medieval</techLevel>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BishopHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>4000</WorkToMake>
-        <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.08</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -104,20 +76,6 @@
       <costStuffCount>25</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BrimlessHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BrimlessHat"]</xpath>
     <value>
@@ -159,20 +117,6 @@
       <costStuffCount>25</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_CommisarHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_CommisarHat"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationReplace">
@@ -197,20 +141,6 @@
       <costStuffCount>50</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_DeerSkull"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>6000</WorkToMake>
-        <Mass>0.14</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_DeerSkull"]</xpath>
     <value>
@@ -232,20 +162,6 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Fez"]/costStuffCount</xpath>
     <value>
       <costStuffCount>20</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Fez"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -283,20 +199,6 @@
     </nomatch>
   </Operation>
   <!-- VIEHAR_Apparel_Headbag -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1250</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
     <value>
@@ -322,11 +224,9 @@
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]/recipeMaker</xpath>
       <value>
-        <recipeMaker>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </recipeMaker>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -343,20 +243,6 @@
       <stuffCategories>
         <li>Fabric</li>
       </stuffCategories>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headscarf"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -376,7 +262,7 @@
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headscarf"]</xpath>
       <value>
         <recipeMaker>
           <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
@@ -385,20 +271,6 @@
     </nomatch>
   </Operation>
   <!-- VIEHAR_Apparel_HorseMask -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_HorseMask"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>2000</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_HorseMask"]</xpath>
     <value>
@@ -439,20 +311,6 @@
       <costStuffCount>25</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_MilitaryCap"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.1</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_MilitaryCap"]</xpath>
     <value>
@@ -479,20 +337,6 @@
     </nomatch>
   </Operation>
   <!-- VIEHAR_Apparel_Skullcap -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Skullcap"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
-        <Mass>0.05</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Skullcap"]</xpath>
     <value>
@@ -527,20 +371,6 @@
     </nomatch>
   </Operation>
   <!-- VIEHAR_Apparel_SpikedSkullcap -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>160</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]</xpath>
     <value>
@@ -560,18 +390,15 @@
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>
-        Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
       <value>
         <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]</xpath>
+      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker</xpath>
       <value>
-        <recipeMaker>
-          <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
-        </recipeMaker>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </nomatch>
   </Operation>
@@ -580,20 +407,6 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_WideHat"]/costStuffCount</xpath>
     <value>
       <costStuffCount>20</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_WideHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
-        <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">

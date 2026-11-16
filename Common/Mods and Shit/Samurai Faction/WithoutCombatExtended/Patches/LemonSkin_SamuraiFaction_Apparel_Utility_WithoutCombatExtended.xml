@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Loaded only without Combat Extended: these replacements would overwrite its armor, bulk, coverage and layer patches -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SashimonoBanner"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <PainShockThreshold>0.1</PainShockThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

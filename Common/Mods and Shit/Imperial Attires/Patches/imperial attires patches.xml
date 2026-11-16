@@ -13,20 +13,6 @@
       <costStuffCount>45</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniTop"]/equippedStatOffsets</xpath>
   </Operation>
@@ -67,20 +53,6 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/costList</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1600</WorkToMake>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_CrossBikiniBottom"]/equippedStatOffsets</xpath>
   </Operation>
@@ -114,20 +86,6 @@
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/costList</xpath>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerTop"]/equippedStatOffsets</xpath>
@@ -163,20 +121,6 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/costList</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1600</WorkToMake>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_ImperialDancerBottom"]/equippedStatOffsets</xpath>
   </Operation>
@@ -202,20 +146,6 @@
 
 
   <!-- CAT_Apparel_LuxuryLingerie -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>2700</WorkToMake>
-        <Mass>0.3</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryLingerie"]/equippedStatOffsets</xpath>
   </Operation>
@@ -245,20 +175,6 @@
     <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/costStuffCount</xpath>
     <value>
       <costStuffCount>40</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CAT_Apparel_LuxuryPanty"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1600</WorkToMake>
-        <Mass>0.5</Mass>
-        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">

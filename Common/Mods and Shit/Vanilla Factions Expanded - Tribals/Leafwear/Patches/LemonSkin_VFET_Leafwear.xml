@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Leafwear: loaded with VFE Tribals and Leaf Skirt or Roo's Satyr and Faun Xenotypes Expanded -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs</xpath>
+    <value>
+      <VFETribals.TribalResearchProjectDef>
+        <defName>LemonSkin_Leafwear</defName>
+        <label>leafwear</label>
+        <description>Craft simple garments from leaves and plant fibers.</description>
+        <baseCost>10</baseCost>
+        <tab>VFET_Basics</tab>
+        <techLevel>Animal</techLevel>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>2.10</researchViewY>
+        <prerequisites>
+          <li>VFET_Fire</li>
+        </prerequisites>
+      </VFETribals.TribalResearchProjectDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]/prerequisites/li[.="VFET_Fire"]</xpath>
+    <value>
+      <li>LemonSkin_Leafwear</li>
+    </value>
+  </Operation>
+</Patch>

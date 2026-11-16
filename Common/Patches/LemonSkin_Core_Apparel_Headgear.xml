@@ -29,20 +29,6 @@
   </Operation>
   <!-- Apparel_CowboyHat -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.14</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
@@ -52,19 +38,6 @@
     </value>
   </Operation>
   <!-- Apparel_BowlerHat -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.14</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/equippedStatOffsets</xpath>
     <value>
@@ -106,26 +79,6 @@
         <li>LemonSkin_NeolithicArmorHeadgear</li>
       </thingCategories>
     </value>
-  </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Tribals</li>
-    </mods>
-    <match Class="PatchOperationConditional">
-      <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite</xpath>
-      <match Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
-        </value>
-      </match>
-      <nomatch Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker</xpath>
-        <value>
-          <researchPrerequisite>LemonSkin_VFET_WarTribalwear</researchPrerequisite>
-        </value>
-      </nomatch>
-    </match>
   </Operation>
   <!-- Apparel_WarVeil -->
   <Operation Class="PatchOperationAdd">

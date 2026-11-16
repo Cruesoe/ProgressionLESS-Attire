@@ -2,20 +2,6 @@
 <Patch>
   <!-- TSFApparel_Gi -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_Gi"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_Gi"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -54,20 +40,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_Kimono"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.62</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_Kimono"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -80,20 +52,6 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_Yukata"]/costStuffCount</xpath>
     <value>
       <costStuffCount>80</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_Yukata"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.7</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.62</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>3.5</EquipDelay>
-      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -118,20 +76,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_HaoriJacket"]/statBases</xpath>
-    <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>5000</WorkToMake>
-        <Mass>1.2</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>1</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_HaoriJacket"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -150,30 +94,6 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/costStuffCount</xpath>
     <value>
       <costStuffCount>140</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>22000</WorkToMake>
-        <MaxHitPoints>200</MaxHitPoints>
-        <Mass>8</Mass>
-        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>10</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.2</MoveSpeed>
-        <MeleeDodgeChance>5</MeleeDodgeChance>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
-      </equippedStatOffsets>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -210,30 +130,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>22000</WorkToMake>
-        <MaxHitPoints>230</MaxHitPoints>
-        <Mass>10</Mass>
-        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>15</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MeleeDodgeChance>5</MeleeDodgeChance>
-        <MoveSpeed>-0.4</MoveSpeed>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
@@ -252,31 +148,6 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/costStuffCount</xpath>
     <value>
       <costStuffCount>180</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>29200</WorkToMake>
-        <MaxHitPoints>230</MaxHitPoints>
-        <Mass>10</Mass>
-        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>15</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MeleeDodgeChance>5</MeleeDodgeChance>
-        <MoveSpeed>-0.4</MoveSpeed>
-        <SocialImpact>0.2</SocialImpact>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
-      </equippedStatOffsets>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

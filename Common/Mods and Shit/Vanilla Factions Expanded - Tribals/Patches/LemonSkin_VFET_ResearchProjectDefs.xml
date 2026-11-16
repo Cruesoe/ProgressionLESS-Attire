@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Leaf Skirt</li>
-      <li>Roo's Satyr and Faun Xenotypes Expanded</li>
-    </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationAdd">
-          <xpath>Defs</xpath>
-          <value>
-            <VFETribals.TribalResearchProjectDef>
-              <defName>LemonSkin_Leafwear</defName>
-              <label>leafwear</label>
-              <description>Craft simple garments from leaves and plant fibers.</description>
-              <baseCost>10</baseCost>
-              <tab>VFET_Basics</tab>
-              <techLevel>Animal</techLevel>
-              <researchViewX>1.00</researchViewX>
-              <researchViewY>2.10</researchViewY>
-              <prerequisites>
-                <li>VFET_Fire</li>
-              </prerequisites>
-            </VFETribals.TribalResearchProjectDef>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]/prerequisites/li[.="VFET_Fire"]</xpath>
-          <value>
-            <li>LemonSkin_Leafwear</li>
-          </value>
-        </li>
-        <!-- Node Research foundation; lives here because the Node Research folder's patches run before this folder's -->
-        <li Class="PatchOperationFindMod">
-          <mods>
-            <li>Node Research</li>
-          </mods>
-          <match Class="PatchOperationAddModExtension">
-            <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="LemonSkin_Leafwear"]</xpath>
-            <value>
-              <li Class="BetterResearchMenu.ResearchFoundationExtension"></li>
-            </value>
-          </match>
-        </li>
-      </operations>
-    </match>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFET_Apparel_TribalHeavy"]/recipeMaker/researchPrerequisite</xpath>
     <value>

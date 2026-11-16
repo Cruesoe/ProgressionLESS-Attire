@@ -2,14 +2,6 @@
 <Patch>
   <!-- TSFApparel_SashimonoBanner -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TSFApparel_SashimonoBanner"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <PainShockThreshold>0.1</PainShockThreshold>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TSFApparel_SashimonoBanner"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">

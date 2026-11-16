@@ -22,28 +22,6 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>15600</WorkToMake>
-        <MaxHitPoints>230</MaxHitPoints>
-        <Mass>10</Mass>
-        <StuffEffectMultiplierArmor>0.67</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.3</MoveSpeed>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/apparel/bodyPartGroups</xpath>
     <value>
       <bodyPartGroups>
@@ -65,28 +43,6 @@
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/costStuffCount</xpath>
     <value>
       <costStuffCount>100</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>20000</WorkToMake>
-        <MaxHitPoints>250</MaxHitPoints>
-        <Mass>8</Mass>
-        <StuffEffectMultiplierArmor>0.78</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>5</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.35</MoveSpeed>
-      </equippedStatOffsets>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -167,28 +123,6 @@
   </Operation>
   <!-- Full plate -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>25400</WorkToMake>
-        <MaxHitPoints>290</MaxHitPoints>
-        <Mass>10</Mass>
-        <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>10</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.70</MoveSpeed>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/thingCategories</xpath>
     <value>
       <thingCategories>
@@ -197,30 +131,6 @@
     </value>
   </Operation>
   <!-- Gilded full plate -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/statBases</xpath>
-    <value>
-      <statBases>
-        <WorkToMake>36200</WorkToMake>
-        <MaxHitPoints>290</MaxHitPoints>
-        <Mass>10</Mass>
-        <StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>10</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.7</MoveSpeed>
-        <SocialImpact>0.25</SocialImpact>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/thingCategories</xpath>
     <value>
@@ -239,16 +149,6 @@
     </value>
   </Operation>
   <!-- Named full plate -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateNamed"]/equippedStatOffsets</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.7</MoveSpeed>
-        <SocialImpact>0.35</SocialImpact>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
-      </equippedStatOffsets>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateNamed"]/thingCategories</xpath>
     <value>

@@ -8,9 +8,9 @@
     <techLevel>Medieval</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>6.20</researchViewY>
-		<prerequisites>
-			<li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
-		</prerequisites>
+    <prerequisites>
+      <li MayRequireAnyOf="ferny.progressionfurniture,cruesoe.progressionlessfurniture">Ferny_Tables</li>
+    </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>LemonSkin_ElectricTailoringBench</defName>
@@ -20,10 +20,10 @@
     <techLevel>Industrial</techLevel>
     <researchViewX>5.00</researchViewX>
     <researchViewY>5.60</researchViewY>
-		<prerequisites>
-			<li>LemonSkin_RusticClothing</li>
-			<li>Electricity</li>
-		</prerequisites>
+    <prerequisites>
+      <li>LemonSkin_RusticClothing</li>
+      <li>Electricity</li>
+    </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>Ferny_VanityTable</defName>
@@ -33,9 +33,9 @@
     <techLevel>Medieval</techLevel>
     <researchViewX>4.00</researchViewX>
     <researchViewY>5.60</researchViewY>
-		<prerequisites>
-			<li>LemonSkin_RusticClothing</li>
-		</prerequisites>
+    <prerequisites>
+      <li>LemonSkin_RusticClothing</li>
+    </prerequisites>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>LemonSkin_TribalHeaddress</defName>
@@ -45,8 +45,8 @@
     <techLevel>Neolithic</techLevel>
     <researchViewX>1.00</researchViewX>
     <researchViewY>6.20</researchViewY>
-		<prerequisites>
-			<li MayRequire="OskarPotocki.VFE.Tribals">VFET_Tribalwear</li>
-		</prerequisites>
+    <prerequisites>
+      <li MayRequire="OskarPotocki.VFE.Tribals">VFET_Tribalwear</li>
+    </prerequisites>
   </ResearchProjectDef>
 </Defs>

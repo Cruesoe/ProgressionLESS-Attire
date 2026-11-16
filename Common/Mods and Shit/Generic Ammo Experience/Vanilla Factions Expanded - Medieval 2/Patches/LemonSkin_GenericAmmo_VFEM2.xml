@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Restores the coverage that The Generic Ammo Experience removes again, so its patch sequence completes -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups[not(li="Hands")]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <li>Hands</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups[not(li="Feet")]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherArmor"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <li>Feet</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/apparel/bodyPartGroups[not(li="Feet")]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherArmor"]/apparel/bodyPartGroups</xpath>
+      <value>
+        <li>Feet</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

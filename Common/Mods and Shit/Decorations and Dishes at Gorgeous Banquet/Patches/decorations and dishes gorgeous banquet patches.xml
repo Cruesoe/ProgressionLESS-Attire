@@ -13,7 +13,7 @@
       </recipeMaker>
     </value>
   </Operation>
-  
+
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="PleatedDress"]/recipeMaker</xpath>
@@ -26,7 +26,7 @@
       </recipeMaker>
     </value>
   </Operation>
-  
+
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="SolemnDress"]/recipeMaker</xpath>
